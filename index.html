@@ -1,0 +1,1703 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>银儿女主玩物社区 - 品牌_官方视频门户 | 银光下的玩物美学</title>
+<meta name="description" content="银儿女主玩物社区官方网站，专注银饰收藏与玩物美学的原创视频社区，汇聚创作者、品牌与企业内容生态，以专业与匠心记录每一件银光玩物。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23d9dfe8'/%3E%3Cstop offset='0.5' stop-color='%23aeb8c8'/%3E%3Cstop offset='1' stop-color='%23808b9e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%231d2431'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='url(%23g)' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='6' fill='url(%23g)'/%3E%3C/svg%3E">
+<style>
+:root{
+  --yve-ink:#1d2431;
+  --yve-ink-2:#2b3446;
+  --yve-ink-3:#3d4859;
+  --yve-silver:#c9d2df;
+  --yve-silver-2:#e7ecf3;
+  --yve-mist:#f4f6fa;
+  --yve-white:#ffffff;
+  --yve-glow:#8bd4ff;
+  --yve-glow-deep:#5fb9ee;
+  --yve-amber:#f0c07a;
+  --yve-line:#e2e7ef;
+  --yve-text:#39424f;
+  --yve-muted:#7b8798;
+  --yve-shadow:0 12px 40px rgba(29,36,49,.10);
+  --yve-radius:18px;
+  --yve-topbar-h:42px;
+  --yve-header-h:68px;
+  --yve-sticky:110px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Source Han Sans SC",sans-serif;
+  color:var(--yve-text);
+  background:var(--yve-mist);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+section{scroll-margin-top:calc(var(--yve-sticky) + 8px);}
+
+/* ---------- 公告条 + 页头吸顶 ---------- */
+.yve-sticky-shell{position:sticky;top:0;z-index:120;}
+.yve-announce{
+  height:var(--yve-topbar-h);
+  background:linear-gradient(90deg,var(--yve-ink) 0%,var(--yve-ink-2) 55%,var(--yve-ink-3) 100%);
+  color:var(--yve-silver);
+  display:flex;align-items:center;
+  font-size:13px;
+  overflow:hidden;
+  position:relative;
+}
+.yve-announce::after{
+  content:"";
+  position:absolute;right:0;top:0;bottom:0;width:90px;
+  background:linear-gradient(90deg,transparent,var(--yve-ink-3));
+  pointer-events:none;
+}
+.yve-announce-inner{
+  max-width:1240px;margin:0 auto;padding:0 22px;
+  display:flex;align-items:center;gap:14px;width:100%;
+  white-space:nowrap;overflow:hidden;
+}
+.yve-announce-tag{
+  flex:0 0 auto;
+  background:linear-gradient(135deg,var(--yve-glow) 0%,var(--yve-glow-deep) 100%);
+  color:var(--yve-ink);
+  font-weight:700;font-size:11px;letter-spacing:1px;
+  padding:2px 9px;border-radius:20px;
+}
+.yve-announce-track{
+  display:flex;gap:38px;
+  animation:yveSlide 26s linear infinite;
+}
+.yve-announce-track span{opacity:.92;}
+.yve-announce-track b{color:var(--yve-amber);font-weight:600;}
+@keyframes yveSlide{
+  0%{transform:translateX(0);}
+  100%{transform:translateX(-50%);}
+}
+.yve-header{
+  height:var(--yve-header-h);
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--yve-line);
+  display:flex;align-items:center;
+}
+.yve-header-inner{
+  max-width:1240px;margin:0 auto;padding:0 22px;width:100%;
+  display:flex;align-items:center;gap:26px;
+}
+.yve-logo{display:flex;align-items:center;gap:10px;flex:0 0 auto;}
+.yve-logo-mark{
+  width:38px;height:38px;border-radius:11px;
+  background:linear-gradient(140deg,var(--yve-ink) 0%,var(--yve-ink-3) 100%);
+  display:flex;align-items:center;justify-content:center;
+  position:relative;
+}
+.yve-logo-mark::before{
+  content:"";width:19px;height:19px;border-radius:50%;
+  border:2.5px solid var(--yve-silver);
+}
+.yve-logo-mark::after{
+  content:"";position:absolute;width:6px;height:6px;border-radius:50%;
+  background:var(--yve-glow);
+}
+.yve-logo-text b{display:block;font-size:17px;color:var(--yve-ink);letter-spacing:.5px;line-height:1.2;}
+.yve-logo-text span{display:block;font-size:10px;color:var(--yve-muted);letter-spacing:2.4px;text-transform:uppercase;}
+.yve-nav{display:flex;gap:4px;flex:1;flex-wrap:wrap;}
+.yve-nav a{
+  font-size:14.5px;color:var(--yve-ink-3);padding:7px 13px;border-radius:9px;
+  transition:.22s;font-weight:500;
+}
+.yve-nav a:hover{background:var(--yve-silver-2);color:var(--yve-ink);}
+.yve-search{
+  flex:0 0 220px;position:relative;
+}
+.yve-search input{
+  width:100%;height:38px;border-radius:10px;border:1px solid var(--yve-line);
+  background:var(--yve-mist);padding:0 36px 0 14px;font-size:13.5px;color:var(--yve-ink);
+  outline:none;transition:.22s;
+}
+.yve-search input:focus{border-color:var(--yve-glow-deep);background:#fff;box-shadow:0 0 0 3px rgba(95,185,238,.14);}
+.yve-search-btn{
+  position:absolute;right:6px;top:6px;width:26px;height:26px;border-radius:7px;
+  background:var(--yve-ink);color:#fff;font-size:13px;display:flex;align-items:center;justify-content:center;
+}
+.yve-search-tip{
+  position:absolute;top:46px;left:0;right:0;background:#fff;border:1px solid var(--yve-line);
+  border-radius:12px;box-shadow:var(--yve-shadow);padding:10px;font-size:13px;
+  color:var(--yve-muted);display:none;z-index:5;
+}
+.yve-search-tip.show{display:block;}
+.yve-search-tip b{color:var(--yve-ink);}
+.yve-burger{
+  display:none;width:40px;height:40px;border-radius:10px;background:var(--yve-silver-2);
+  flex-direction:column;align-items:center;justify-content:center;gap:4px;
+}
+.yve-burger i{display:block;width:18px;height:2px;background:var(--yve-ink);border-radius:2px;transition:.25s;}
+.yve-burger.open i:nth-child(1){transform:translateY(6px) rotate(45deg);}
+.yve-burger.open i:nth-child(2){opacity:0;}
+.yve-burger.open i:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
+
+/* ---------- 通用容器 ---------- */
+.yve-wrap{max-width:1240px;margin:0 auto;padding:0 22px;}
+.yve-sec{padding:74px 0;}
+.yve-sec-head{margin-bottom:40px;}
+.yve-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12.5px;letter-spacing:2px;color:var(--yve-glow-deep);font-weight:700;
+  text-transform:uppercase;margin-bottom:12px;
+}
+.yve-eyebrow::before{content:"";width:26px;height:2px;background:var(--yve-glow-deep);border-radius:2px;}
+.yve-h2{
+  font-size:clamp(24px,3vw,34px);color:var(--yve-ink);line-height:1.32;
+  letter-spacing:.5px;font-weight:800;
+}
+.yve-h2 em{font-style:normal;color:var(--yve-glow-deep);}
+.yve-sub{margin-top:10px;color:var(--yve-muted);font-size:15px;max-width:720px;}
+.yve-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 24px;border-radius:12px;font-size:14.5px;font-weight:600;
+  transition:.24s;cursor:pointer;
+}
+.yve-btn-primary{
+  background:linear-gradient(135deg,var(--yve-ink) 0%,var(--yve-ink-3) 100%);
+  color:#fff;box-shadow:0 8px 22px rgba(29,36,49,.22);
+}
+.yve-btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(29,36,49,.3);}
+.yve-btn-ghost{
+  background:rgba(255,255,255,.1);color:var(--yve-silver-2);
+  border:1px solid rgba(231,236,243,.32);
+}
+.yve-btn-ghost:hover{background:rgba(255,255,255,.2);}
+.yve-btn-light{
+  background:#fff;color:var(--yve-ink);border:1px solid var(--yve-line);
+}
+.yve-btn-light:hover{border-color:var(--yve-glow-deep);color:var(--yve-glow-deep);}
+
+/* ---------- 首屏 ---------- */
+.yve-hero{
+  position:relative;background:linear-gradient(155deg,var(--yve-ink) 0%,#232c3c 48%,#2f3a4d 100%);
+  color:var(--yve-silver-2);overflow:hidden;
+}
+.yve-hero::before{
+  content:"";position:absolute;width:760px;height:760px;border-radius:50%;
+  background:radial-gradient(circle,rgba(139,212,255,.20) 0%,transparent 66%);
+  top:-260px;right:-180px;pointer-events:none;
+}
+.yve-hero::after{
+  content:"";position:absolute;width:520px;height:520px;border-radius:50%;
+  background:radial-gradient(circle,rgba(240,192,122,.13) 0%,transparent 68%);
+  bottom:-220px;left:-120px;pointer-events:none;
+}
+.yve-hero-inner{
+  position:relative;z-index:2;
+  display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center;
+  padding:72px 0 64px;
+}
+.yve-hero-badge{
+  display:inline-flex;align-items:center;gap:9px;
+  background:rgba(139,212,255,.12);border:1px solid rgba(139,212,255,.36);
+  color:var(--yve-glow);font-size:12.5px;letter-spacing:1.4px;font-weight:600;
+  padding:6px 15px;border-radius:30px;margin-bottom:24px;
+}
+.yve-hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--yve-glow);box-shadow:0 0 10px var(--yve-glow);}
+.yve-h1{
+  font-size:clamp(36px,5.6vw,62px);line-height:1.12;font-weight:900;
+  letter-spacing:1px;color:#fff;margin-bottom:20px;
+}
+.yve-h1 span{
+  background:linear-gradient(100deg,var(--yve-silver) 0%,var(--yve-glow) 52%,var(--yve-amber) 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.yve-hero-lead{font-size:16.5px;color:var(--yve-silver);max-width:560px;margin-bottom:16px;}
+.yve-hero-desc{
+  font-size:14.5px;color:#a8b3c4;line-height:1.95;max-width:570px;margin-bottom:30px;
+  padding-left:16px;border-left:2px solid rgba(139,212,255,.42);
+}
+.yve-hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:42px;}
+.yve-hero-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
+  border-top:1px solid rgba(201,210,223,.16);padding-top:26px;
+}
+.yve-stat b{
+  display:block;font-size:clamp(24px,2.8vw,32px);color:#fff;font-weight:800;letter-spacing:.5px;
+  font-variant-numeric:tabular-nums;
+}
+.yve-stat b em{font-style:normal;font-size:15px;color:var(--yve-glow);margin-left:2px;}
+.yve-stat span{font-size:12.5px;color:#8e9aab;letter-spacing:.6px;}
+
+/* 首屏视觉：银饰主轴插画 */
+.yve-hero-visual{position:relative;}
+.yve-hero-stage{
+  position:relative;border-radius:26px;overflow:hidden;
+  box-shadow:0 30px 70px rgba(0,0,0,.42);
+  border:1px solid rgba(201,210,223,.18);
+  aspect-ratio:4/4.4;
+}
+.yve-hero-stage img{width:100%;height:100%;object-fit:cover;}
+.yve-hero-float{
+  position:absolute;left:-16px;bottom:26px;
+  background:rgba(255,255,255,.96);color:var(--yve-ink);
+  border-radius:16px;padding:14px 18px;box-shadow:0 18px 40px rgba(0,0,0,.3);
+  display:flex;align-items:center;gap:12px;max-width:270px;
+}
+.yve-hero-float .yve-float-play{
+  width:38px;height:38px;border-radius:50%;flex:0 0 auto;
+  background:linear-gradient(135deg,var(--yve-glow-deep),var(--yve-glow));
+  display:flex;align-items:center;justify-content:center;color:#fff;
+}
+.yve-hero-float .yve-float-play::after{
+  content:"";border-style:solid;border-width:6px 0 6px 10px;
+  border-color:transparent transparent transparent #fff;margin-left:2px;
+}
+.yve-hero-float b{display:block;font-size:13.5px;line-height:1.35;}
+.yve-hero-float span{font-size:11.5px;color:var(--yve-muted);}
+
+/* ---------- 关键词深度解析 ---------- */
+.yve-about{background:#fff;}
+.yve-about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:46px;align-items:start;}
+.yve-about-art{
+  position:sticky;top:calc(var(--yve-sticky) + 22px);
+  border-radius:22px;overflow:hidden;box-shadow:var(--yve-shadow);
+  border:1px solid var(--yve-line);
+}
+.yve-about-art img{width:100%;aspect-ratio:3/3.6;object-fit:cover;}
+.yve-about-body h2{margin-bottom:18px;}
+.yve-about-body p{font-size:15px;line-height:1.98;color:var(--yve-text);margin-bottom:16px;}
+.yve-about-body p strong{color:var(--yve-ink);font-weight:700;}
+.yve-keyword-pills{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0 8px;}
+.yve-keyword-pills span{
+  font-size:12.5px;padding:5px 13px;border-radius:20px;
+  background:var(--yve-mist);border:1px solid var(--yve-line);color:var(--yve-ink-3);
+  font-weight:500;
+}
+.yve-about-quote{
+  margin-top:26px;padding:20px 22px;border-radius:16px;
+  background:linear-gradient(135deg,var(--yve-ink) 0%,var(--yve-ink-3) 100%);
+  color:var(--yve-silver-2);font-size:14.5px;line-height:1.85;position:relative;
+}
+.yve-about-quote::before{
+  content:"“";position:absolute;top:4px;left:14px;font-size:46px;color:rgba(139,212,255,.4);
+  font-family:Georgia,serif;line-height:1;
+}
+
+/* ---------- 焦点内容 ---------- */
+.yve-focus{background:var(--yve-mist);}
+.yve-focus-grid{display:grid;grid-template-columns:1.16fr .84fr;gap:24px;}
+.yve-focus-main{
+  border-radius:20px;overflow:hidden;position:relative;
+  box-shadow:var(--yve-shadow);background:#fff;
+}
+.yve-focus-main .yve-cover-wrap{position:relative;aspect-ratio:16/9;}
+.yve-cover-wrap img{width:100%;height:100%;object-fit:cover;}
+.yve-cover-mask{
+  position:absolute;inset:0;background:linear-gradient(to top,rgba(20,26,36,.78) 0%,rgba(20,26,36,.06) 56%,transparent 100%);
+}
+.yve-cover-badge{
+  position:absolute;top:14px;left:14px;display:flex;gap:8px;flex-wrap:wrap;
+}
+.yve-cover-badge span{
+  font-size:11.5px;font-weight:600;padding:4px 10px;border-radius:20px;
+  background:rgba(255,255,255,.92);color:var(--yve-ink);
+}
+.yve-cover-badge span.hot{background:linear-gradient(135deg,var(--yve-glow-deep),var(--yve-glow));color:#fff;}
+.yve-play-dot{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:60px;height:60px;border-radius:50%;background:rgba(255,255,255,.9);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 10px 30px rgba(0,0,0,.28);transition:.25s;
+}
+.yve-play-dot::after{content:"";border-style:solid;border-width:9px 0 9px 15px;border-color:transparent transparent transparent var(--yve-ink);margin-left:4px;}
+.yve-focus-main:hover .yve-play-dot{transform:translate(-50%,-50%) scale(1.1);}
+.yve-focus-info{padding:20px 22px 22px;position:absolute;left:0;right:0;bottom:0;color:#fff;}
+.yve-focus-info h3{font-size:20px;font-weight:700;line-height:1.4;margin-bottom:6px;}
+.yve-focus-info p{font-size:13.5px;color:#cfd8e4;line-height:1.7;}
+.yve-focus-side{display:grid;grid-template-rows:repeat(2,1fr);gap:24px;}
+.yve-mini-card{
+  background:#fff;border:1px solid var(--yve-line);border-radius:18px;overflow:hidden;
+  display:grid;grid-template-columns:126px 1fr;transition:.24s;
+}
+.yve-mini-card:hover{transform:translateY(-3px);box-shadow:var(--yve-shadow);border-color:var(--yve-glow);}
+.yve-mini-card .yve-mini-cover{position:relative;overflow:hidden;}
+.yve-mini-card .yve-mini-cover img{width:100%;height:100%;object-fit:cover;min-height:110px;}
+.yve-mini-card .yve-mini-cover i{
+  position:absolute;right:8px;bottom:8px;font-style:normal;font-size:11px;
+  background:rgba(20,26,36,.78);color:#fff;padding:1px 7px;border-radius:6px;
+}
+.yve-mini-body{padding:14px 15px;display:flex;flex-direction:column;gap:6px;}
+.yve-mini-body h4{font-size:14.5px;color:var(--yve-ink);line-height:1.42;font-weight:700;}
+.yve-mini-body span{font-size:12px;color:var(--yve-muted);}
+
+/* ---------- 视频流卡片 ---------- */
+.yve-flow{background:#fff;}
+.yve-filter-bar{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:28px;}
+.yve-filter-bar button{
+  font-size:13px;padding:7px 16px;border-radius:22px;
+  background:var(--yve-mist);color:var(--yve-ink-3);border:1px solid transparent;
+  font-weight:500;transition:.2s;
+}
+.yve-filter-bar button.active,
+.yve-filter-bar button:hover{background:var(--yve-ink);color:#fff;}
+.yve-video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+.yve-video-card{
+  background:#fff;border:1px solid var(--yve-line);border-radius:18px;overflow:hidden;
+  transition:.26s;display:flex;flex-direction:column;
+}
+.yve-video-card:hover{transform:translateY(-5px);box-shadow:var(--yve-shadow);border-color:var(--yve-glow);}
+.yve-vc-cover{position:relative;aspect-ratio:16/9;overflow:hidden;}
+.yve-vc-cover img{width:100%;height:100%;object-fit:cover;transition:.4s;}
+.yve-video-card:hover .yve-vc-cover img{transform:scale(1.05);}
+.yve-vc-dur{
+  position:absolute;right:10px;bottom:10px;font-size:11px;color:#fff;
+  background:rgba(20,26,36,.8);padding:2px 8px;border-radius:6px;letter-spacing:.4px;
+}
+.yve-vc-tag{
+  position:absolute;left:10px;top:10px;font-size:11px;font-weight:600;
+  background:rgba(255,255,255,.94);color:var(--yve-ink);padding:3px 10px;border-radius:20px;
+}
+.yve-vc-body{padding:16px 17px 17px;display:flex;flex-direction:column;gap:9px;flex:1;}
+.yve-vc-body h3{font-size:15.5px;color:var(--yve-ink);line-height:1.45;font-weight:700;}
+.yve-vc-body p{font-size:12.8px;color:var(--yve-muted);line-height:1.7;flex:1;}
+.yve-vc-meta{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--yve-muted);}
+.yve-avatar{
+  width:24px;height:24px;border-radius:50%;flex:0 0 auto;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:11px;font-weight:700;letter-spacing:0;
+}
+.yve-vc-actions{display:flex;gap:8px;border-top:1px solid var(--yve-line);padding-top:11px;margin-top:2px;}
+.yve-act-btn{
+  display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:var(--yve-muted);
+  padding:5px 10px;border-radius:8px;transition:.18s;background:var(--yve-mist);
+}
+.yve-act-btn:hover{background:var(--yve-silver-2);color:var(--yve-ink);}
+.yve-act-btn.liked{color:#e0584e;background:#fdeeec;}
+.yve-act-btn.saved{color:var(--yve-glow-deep);background:#e9f6fd;}
+
+/* ---------- 专题 ---------- */
+.yve-topics{background:linear-gradient(180deg,var(--yve-mist) 0%,#eef2f8 100%);}
+.yve-topic-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.yve-topic-card{
+  position:relative;border-radius:18px;overflow:hidden;min-height:260px;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:20px;color:#fff;box-shadow:var(--yve-shadow);transition:.28s;
+}
+.yve-topic-card:nth-child(1){grid-column:span 2;min-height:290px;}
+.yve-topic-card:nth-child(4){grid-column:span 1;}
+.yve-topic-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;}
+.yve-topic-card::after{
+  content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(to top,rgba(17,23,32,.88) 0%,rgba(17,23,32,.16) 60%,transparent 100%);
+}
+.yve-topic-card:hover{transform:translateY(-4px);}
+.yve-topic-card h3,.yve-topic-card p,.yve-topic-status{position:relative;z-index:2;}
+.yve-topic-card h3{font-size:17.5px;font-weight:700;line-height:1.4;margin-bottom:6px;}
+.yve-topic-card p{font-size:12.8px;color:#cbd5e2;line-height:1.66;}
+.yve-topic-status{
+  display:inline-block;font-size:11px;margin-top:10px;padding:3px 10px;border-radius:20px;
+  background:rgba(139,212,255,.2);border:1px solid rgba(139,212,255,.5);color:var(--yve-glow);
+  width:fit-content;
+}
+
+/* ---------- 创作者 ---------- */
+.yve-creators{background:#fff;}
+.yve-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
+.yve-creator-card{
+  border:1px solid var(--yve-line);border-radius:18px;padding:24px 20px;
+  text-align:center;transition:.26s;background:#fff;
+}
+.yve-creator-card:hover{transform:translateY(-5px);box-shadow:var(--yve-shadow);border-color:var(--yve-glow);}
+.yve-creator-avatar{
+  width:70px;height:70px;border-radius:50%;margin:0 auto 14px;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:24px;font-weight:800;letter-spacing:1px;
+  box-shadow:0 8px 20px rgba(29,36,49,.18);
+}
+.yve-creator-card h3{font-size:16px;color:var(--yve-ink);margin-bottom:4px;}
+.yve-creator-field{
+  font-size:12px;color:var(--yve-glow-deep);font-weight:600;letter-spacing:.5px;margin-bottom:10px;
+}
+.yve-creator-card p{font-size:12.8px;color:var(--yve-muted);line-height:1.7;min-height:56px;}
+.yve-creator-nums{
+  display:flex;justify-content:center;gap:16px;margin-top:14px;padding-top:14px;
+  border-top:1px solid var(--yve-line);font-size:12px;color:var(--yve-muted);
+}
+.yve-creator-nums b{display:block;color:var(--yve-ink);font-size:15px;font-weight:800;}
+
+/* ---------- 评论 ---------- */
+.yve-voices{background:var(--yve-ink);color:var(--yve-silver-2);position:relative;overflow:hidden;}
+.yve-voices::before{
+  content:"";position:absolute;width:600px;height:600px;border-radius:50%;
+  background:radial-gradient(circle,rgba(139,212,255,.14) 0%,transparent 68%);
+  top:-240px;left:-160px;
+}
+.yve-voices .yve-h2{color:#fff;}
+.yve-voices .yve-sub{color:#93a0b3;}
+.yve-comment-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;position:relative;z-index:2;}
+.yve-comment-card{
+  background:rgba(255,255,255,.055);border:1px solid rgba(201,210,223,.14);
+  border-radius:16px;padding:22px 20px;transition:.26s;
+}
+.yve-comment-card:hover{background:rgba(255,255,255,.1);border-color:rgba(139,212,255,.4);}
+.yve-comment-top{display:flex;align-items:center;gap:11px;margin-bottom:12px;}
+.yve-comment-top b{font-size:13.5px;color:#fff;display:block;line-height:1.3;}
+.yve-comment-top span{font-size:11px;color:#7c8a9d;}
+.yve-comment-card p{font-size:13.5px;line-height:1.85;color:#c3cddb;}
+.yve-comment-card .yve-stars{color:var(--yve-amber);font-size:12px;letter-spacing:2px;margin-top:14px;}
+
+/* ---------- 灵感工具 ---------- */
+.yve-tools{background:#fff;}
+.yve-tools-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start;}
+.yve-tools-panel{
+  background:linear-gradient(150deg,var(--yve-ink) 0%,var(--yve-ink-3) 100%);
+  border-radius:22px;padding:34px;color:var(--yve-silver-2);box-shadow:var(--yve-shadow);
+}
+.yve-tools-panel h3{font-size:19px;color:#fff;margin-bottom:8px;}
+.yve-tools-panel > p{font-size:13.5px;color:#a6b2c3;line-height:1.8;margin-bottom:22px;}
+.yve-timer-btns{display:flex;gap:10px;flex-wrap:wrap;}
+.yve-timer-btns button{
+  font-size:13px;padding:9px 18px;border-radius:11px;
+  background:rgba(255,255,255,.1);color:var(--yve-silver-2);border:1px solid rgba(201,210,223,.2);
+  transition:.2s;
+}
+.yve-timer-btns button.active,.yve-timer-btns button:hover{background:var(--yve-glow-deep);color:#fff;border-color:transparent;}
+.yve-timer-display{
+  margin:26px 0 22px;text-align:center;
+  font-size:52px;font-weight:800;color:#fff;letter-spacing:3px;font-variant-numeric:tabular-nums;
+  text-shadow:0 0 26px rgba(139,212,255,.4);line-height:1;
+}
+.yve-timer-display small{display:block;font-size:12px;letter-spacing:2px;color:#8e9aab;font-weight:500;margin-top:10px;}
+.yve-timer-actions{display:flex;gap:10px;}
+.yve-timer-actions .yve-btn-primary{flex:1;justify-content:center;background:#fff;color:var(--yve-ink);box-shadow:none;}
+.yve-timer-actions .yve-btn-primary:hover{background:var(--yve-silver-2);}
+.yve-timer-actions .yve-btn-ghost{flex:0 0 108px;justify-content:center;}
+
+.yve-inspire-list{display:flex;flex-direction:column;gap:14px;}
+.yve-inspire-item{
+  display:flex;gap:16px;padding:18px 20px;border-radius:16px;
+  background:var(--yve-mist);border:1px solid var(--yve-line);transition:.22s;
+}
+.yve-inspire-item:hover{border-color:var(--yve-glow);background:#fff;box-shadow:0 10px 26px rgba(29,36,49,.07);}
+.yve-inspire-num{
+  flex:0 0 auto;width:34px;height:34px;border-radius:10px;
+  background:linear-gradient(135deg,var(--yve-ink),var(--yve-ink-3));color:var(--yve-glow);
+  display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;
+}
+.yve-inspire-item h4{font-size:14.5px;color:var(--yve-ink);margin-bottom:4px;}
+.yve-inspire-item p{font-size:12.8px;color:var(--yve-muted);line-height:1.7;}
+
+/* ---------- 动态 & FAQ ---------- */
+.yve-news{background:var(--yve-mist);}
+.yve-news-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:start;}
+.yve-timeline{position:relative;padding-left:26px;}
+.yve-timeline::before{
+  content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;
+  background:linear-gradient(var(--yve-glow),var(--yve-line));
+}
+.yve-tl-item{position:relative;padding-bottom:24px;}
+.yve-tl-item:last-child{padding-bottom:0;}
+.yve-tl-item::before{
+  content:"";position:absolute;left:-25px;top:6px;width:12px;height:12px;border-radius:50%;
+  background:#fff;border:3px solid var(--yve-glow-deep);box-shadow:0 0 0 4px rgba(95,185,238,.14);
+}
+.yve-tl-date{font-size:12px;color:var(--yve-glow-deep);font-weight:700;letter-spacing:.6px;margin-bottom:4px;}
+.yve-tl-item h4{font-size:14.8px;color:var(--yve-ink);margin-bottom:4px;}
+.yve-tl-item p{font-size:12.8px;color:var(--yve-muted);line-height:1.7;}
+
+.yve-faq-list{display:flex;flex-direction:column;gap:11px;}
+.yve-faq-list details{
+  background:#fff;border:1px solid var(--yve-line);border-radius:13px;
+  padding:0 18px;transition:.2s;
+}
+.yve-faq-list details[open]{border-color:var(--yve-glow);box-shadow:0 8px 22px rgba(29,36,49,.07);}
+.yve-faq-list summary{
+  cursor:pointer;list-style:none;padding:15px 0;font-size:14px;font-weight:600;
+  color:var(--yve-ink);display:flex;justify-content:space-between;align-items:center;gap:14px;
+}
+.yve-faq-list summary::-webkit-details-marker{display:none;}
+.yve-faq-list summary::after{
+  content:"+";font-size:19px;color:var(--yve-glow-deep);font-weight:400;transition:.2s;line-height:1;
+}
+.yve-faq-list details[open] summary::after{transform:rotate(45deg);}
+.yve-faq-list details p{font-size:13px;color:var(--yve-muted);line-height:1.85;padding-bottom:16px;}
+
+/* ---------- 投稿联系 ---------- */
+.yve-join{
+  background:linear-gradient(140deg,#243042 0%,var(--yve-ink) 62%,#1a212c 100%);
+  color:var(--yve-silver-2);text-align:center;position:relative;overflow:hidden;
+}
+.yve-join::before,.yve-join::after{
+  content:"";position:absolute;border-radius:50%;pointer-events:none;
+}
+.yve-join::before{width:460px;height:460px;background:radial-gradient(circle,rgba(139,212,255,.16),transparent 68%);top:-200px;right:-100px;}
+.yve-join::after{width:380px;height:380px;background:radial-gradient(circle,rgba(240,192,122,.1),transparent 68%);bottom:-180px;left:-80px;}
+.yve-join-inner{position:relative;z-index:2;}
+.yve-join .yve-h2{color:#fff;}
+.yve-join p.yve-sub{color:#9fabbd;margin:14px auto 30px;max-width:620px;}
+.yve-join-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
+.yve-contact-strip{
+  margin-top:46px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;text-align:left;
+}
+.yve-contact-item{
+  background:rgba(255,255,255,.06);border:1px solid rgba(201,210,223,.16);
+  border-radius:15px;padding:18px 20px;
+}
+.yve-contact-item b{display:block;font-size:12px;letter-spacing:1.4px;color:var(--yve-glow);margin-bottom:6px;font-weight:600;}
+.yve-contact-item span{font-size:13.5px;color:#cfd8e4;}
+
+/* ---------- 页脚 ---------- */
+.yve-footer{background:#151b24;color:#8c99ab;padding:56px 0 26px;font-size:13.5px;}
+.yve-footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:38px;margin-bottom:40px;}
+.yve-footer h4{color:#dfe6ef;font-size:14.5px;margin-bottom:16px;font-weight:700;}
+.yve-footer-brand p{line-height:1.9;margin:14px 0;color:#7e8b9d;font-size:13px;max-width:320px;}
+.yve-footer ul{list-style:none;display:flex;flex-direction:column;gap:10px;}
+.yve-footer ul a{color:#8c99ab;transition:.2s;font-size:13px;}
+.yve-footer ul a:hover{color:var(--yve-glow);}
+.yve-footer-bottom{
+  border-top:1px solid rgba(201,210,223,.1);padding-top:22px;
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:#697787;
+}
+
+/* ---------- 回到顶部 & Toast ---------- */
+.yve-top-btn{
+  position:fixed;right:24px;bottom:24px;width:46px;height:46px;border-radius:13px;
+  background:var(--yve-ink);color:#fff;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 10px 26px rgba(29,36,49,.3);opacity:0;visibility:hidden;transition:.28s;z-index:90;
+  font-size:17px;
+}
+.yve-top-btn.show{opacity:1;visibility:visible;}
+.yve-top-btn:hover{background:var(--yve-glow-deep);}
+.yve-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,18px);
+  background:var(--yve-ink);color:#fff;font-size:13.5px;padding:11px 22px;border-radius:11px;
+  box-shadow:0 14px 34px rgba(0,0,0,.3);opacity:0;visibility:hidden;transition:.28s;z-index:200;
+  white-space:nowrap;
+}
+.yve-toast.show{opacity:1;visibility:visible;transform:translate(-50%,0);}
+
+/* ---------- 弹窗 ---------- */
+.yve-modal{
+  position:fixed;inset:0;z-index:300;display:flex;align-items:center;justify-content:center;
+  background:rgba(17,23,32,.56);backdrop-filter:blur(4px);padding:20px;
+  opacity:0;visibility:hidden;transition:.24s;
+}
+.yve-modal.show{opacity:1;visibility:visible;}
+.yve-modal-box{
+  background:#fff;border-radius:20px;max-width:460px;width:100%;padding:30px 28px;
+  box-shadow:0 30px 70px rgba(0,0,0,.3);transform:translateY(14px);transition:.26s;
+  max-height:88vh;overflow-y:auto;
+}
+.yve-modal.show .yve-modal-box{transform:translateY(0);}
+.yve-modal-box h3{font-size:19px;color:var(--yve-ink);margin-bottom:8px;}
+.yve-modal-box p{font-size:13.5px;color:var(--yve-muted);line-height:1.8;margin-bottom:18px;}
+.yve-modal-box label{display:block;font-size:12.5px;color:var(--yve-ink-3);margin:12px 0 6px;font-weight:600;}
+.yve-modal-box input,.yve-modal-box textarea,.yve-modal-box select{
+  width:100%;border:1px solid var(--yve-line);border-radius:10px;padding:10px 13px;
+  font-size:13.5px;font-family:inherit;color:var(--yve-ink);outline:none;background:var(--yve-mist);
+  transition:.2s;
+}
+.yve-modal-box input:focus,.yve-modal-box textarea:focus,.yve-modal-box select:focus{
+  border-color:var(--yve-glow-deep);background:#fff;box-shadow:0 0 0 3px rgba(95,185,238,.14);
+}
+.yve-modal-box textarea{resize:vertical;min-height:88px;}
+.yve-modal-actions{display:flex;gap:11px;margin-top:22px;}
+.yve-modal-actions .yve-btn{flex:1;justify-content:center;}
+.yve-modal-close{
+  position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:9px;
+  background:var(--yve-mist);color:var(--yve-ink);font-size:17px;display:flex;
+  align-items:center;justify-content:center;
+}
+.yve-modal-box{position:relative;}
+
+/* ---------- 响应式 ---------- */
+@media(max-width:1080px){
+  .yve-hero-inner{grid-template-columns:1fr;gap:38px;padding:56px 0;}
+  .yve-hero-stage{aspect-ratio:16/11;max-width:560px;}
+  .yve-about-grid{grid-template-columns:1fr;gap:30px;}
+  .yve-about-art{position:static;max-width:520px;}
+  .yve-focus-grid{grid-template-columns:1fr;}
+  .yve-video-grid{grid-template-columns:repeat(2,1fr);}
+  .yve-topic-grid{grid-template-columns:repeat(2,1fr);}
+  .yve-topic-card:nth-child(1){grid-column:span 2;}
+  .yve-creator-grid{grid-template-columns:repeat(2,1fr);}
+  .yve-comment-grid{grid-template-columns:repeat(2,1fr);}
+  .yve-tools-grid{grid-template-columns:1fr;}
+  .yve-news-grid{grid-template-columns:1fr;}
+  .yve-footer-grid{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:860px){
+  .yve-nav{
+    position:absolute;top:calc(var(--yve-topbar-h) + var(--yve-header-h));left:0;right:0;
+    background:#fff;border-bottom:1px solid var(--yve-line);
+    flex-direction:column;padding:10px 18px 18px;gap:2px;
+    display:none;box-shadow:0 18px 34px rgba(29,36,49,.1);
+  }
+  .yve-nav.open{display:flex;}
+  .yve-nav a{padding:11px 12px;border-radius:9px;}
+  .yve-burger{display:flex;}
+  .yve-search{flex:1;}
+  .yve-contact-strip{grid-template-columns:1fr;}
+}
+@media(max-width:640px){
+  .yve-sec{padding:52px 0;}
+  .yve-announce-inner{font-size:12px;gap:10px;}
+  .yve-video-grid{grid-template-columns:1fr;}
+  .yve-topic-grid{grid-template-columns:1fr;}
+  .yve-topic-card:nth-child(1){grid-column:span 1;}
+  .yve-creator-grid{grid-template-columns:1fr;}
+  .yve-comment-grid{grid-template-columns:1fr;}
+  .yve-mini-card{grid-template-columns:104px 1fr;}
+  .yve-footer-grid{grid-template-columns:1fr;}
+  .yve-hero-stats{grid-template-columns:1fr 1fr;gap:16px;}
+  .yve-hero-float{left:8px;bottom:14px;padding:11px 14px;max-width:230px;}
+  .yve-tools-panel{padding:24px 20px;}
+  .yve-timer-display{font-size:42px;}
+  .yve-footer-bottom{flex-direction:column;gap:8px;}
+  .yve-search{display:none;}
+  .yve-header-inner{gap:14px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 吸顶：公告条 + 页头 -->
+<div class="yve-sticky-shell">
+  <div class="yve-announce" aria-label="站内更新公告">
+    <div class="yve-announce-inner">
+      <span class="yve-announce-tag">新增</span>
+      <div class="yve-announce-track">
+        <span><b>11月18日</b> 银饰锻造工艺专题《錾刻的呼吸》上线，含 6 段高清工序影像</span>
+        <span><b>11月17日</b> 社区第三届「银光玩物挑战」报名开启，投稿通道同步开放</span>
+        <span><b>11月16日</b> 创作者榜单更新：@旧银事务所 进入口碑榜前三</span>
+        <span><b>11月15日</b> 品牌故事栏目新增《一枚银锁的三十年》口述实录</span>
+        <span><b>11月18日</b> 银饰锻造工艺专题《錾刻的呼吸》上线，含 6 段高清工序影像</span>
+        <span><b>11月17日</b> 社区第三届「银光玩物挑战」报名开启，投稿通道同步开放</span>
+        <span><b>11月16日</b> 创作者榜单更新：@旧银事务所 进入口碑榜前三</span>
+        <span><b>11月15日</b> 品牌故事栏目新增《一枚银锁的三十年》口述实录</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="yve-header">
+    <div class="yve-header-inner">
+      <a href="#yve-hero" class="yve-logo" aria-label="银儿女主玩物社区官方网站首页">
+        <span class="yve-logo-mark"></span>
+        <span class="yve-logo-text">
+          <b>银儿女主玩物社区</b>
+          <span>Silver Muse Playhouse</span>
+        </span>
+      </a>
+      <nav class="yve-nav" id="yveNav" aria-label="主导航">
+        <a href="#yve-hero">首页</a>
+        <a href="#yve-about">关键词解析</a>
+        <a href="#yve-focus">焦点影像</a>
+        <a href="#yve-flow">热门内容</a>
+        <a href="#yve-topics">专题企划</a>
+        <a href="#yve-creators">创作者</a>
+        <a href="#yve-voices">口碑</a>
+        <a href="#yve-news">企业动态</a>
+        <a href="#yve-join">投稿联系</a>
+      </nav>
+      <div class="yve-search">
+        <input type="text" id="yveSearchInput" placeholder="搜索玩物、银饰、创作者" aria-label="站内搜索">
+        <button class="yve-search-btn" id="yveSearchBtn" aria-label="搜索">⌕</button>
+        <div class="yve-search-tip" id="yveSearchTip"></div>
+      </div>
+      <button class="yve-burger" id="yveBurger" aria-label="展开导航" aria-expanded="false">
+        <i></i><i></i><i></i>
+      </button>
+    </div>
+  </header>
+</div>
+
+<!-- 首屏 -->
+<section class="yve-hero" id="yve-hero">
+  <div class="yve-wrap">
+    <div class="yve-hero-inner">
+      <div class="yve-hero-copy">
+        <span class="yve-hero-badge"><i></i>官方网站 · 银光玩物影像社区</span>
+        <h1 class="yve-h1">银儿女主<span>玩物社区</span></h1>
+        <p class="yve-hero-lead">以银为媒，收藏每一件值得被看见的玩物与故事。</p>
+        <p class="yve-hero-desc">
+          银儿女主玩物社区是一家专注银饰收藏、旧物美学与日常玩物的视频品牌运营方，我们以原创影像记录工艺、器物与人的关系，为企业、创作者与同好搭建值得信赖的内容生态与交流空间。
+        </p>
+        <div class="yve-hero-actions">
+          <a href="#yve-flow" class="yve-btn yve-btn-primary">探索精品内容 →</a>
+          <button class="yve-btn yve-btn-ghost" data-yve-open="submit">报名参与挑战</button>
+        </div>
+        <div class="yve-hero-stats">
+          <div class="yve-stat"><b><span class="yve-count" data-to="1286">0</span><em>+</em></b><span>原创影像条目</span></div>
+          <div class="yve-stat"><b><span class="yve-count" data-to="342">0</span><em>位</em></b><span>签约创作者</span></div>
+          <div class="yve-stat"><b><span class="yve-count" data-to="57">0</span><em>万</em></b><span>社区同好累计</span></div>
+        </div>
+      </div>
+      <div class="yve-hero-visual">
+        <div class="yve-hero-stage">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 880'%3E%3Cdefs%3E%3CradialGradient id='bg' cx='0.5' cy='0.36' r='0.78'%3E%3Cstop offset='0' stop-color='%23364259'/%3E%3Cstop offset='0.6' stop-color='%23222b3a'/%3E%3Cstop offset='1' stop-color='%23161c26'/%3E%3C/radialGradient%3E%3ClinearGradient id='silver' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f2f6fb'/%3E%3Cstop offset='0.45' stop-color='%23b9c4d4'/%3E%3Cstop offset='0.75' stop-color='%238d9aad'/%3E%3Cstop offset='1' stop-color='%23dbe3ee'/%3E%3C/linearGradient%3E%3ClinearGradient id='silver2' x1='1' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23dfe7f1'/%3E%3Cstop offset='0.5' stop-color='%23929fb2'/%3E%3Cstop offset='1' stop-color='%23eef3f9'/%3E%3C/linearGradient%3E%3CradialGradient id='halo' cx='0.5' cy='0.5' r='0.5'%3E%3Cstop offset='0' stop-color='%238bd4ff' stop-opacity='0.35'/%3E%3Cstop offset='1' stop-color='%238bd4ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='800' height='880' fill='url(%23bg)'/%3E%3Ccircle cx='400' cy='365' r='300' fill='url(%23halo)'/%3E%3C!-- 项链链环 --%3E%3Cg stroke='url(%23silver)' stroke-width='9' fill='none' opacity='0.92'%3E%3Cpath d='M250 150 C300 250 340 330 400 372'/%3E%3Cpath d='M550 150 C500 250 460 330 400 372'/%3E%3C/g%3E%3Cg fill='none' stroke='url(%23silver2)' stroke-width='5' opacity='0.7'%3E%3Cellipse cx='400' cy='120' rx='118' ry='42'/%3E%3Cellipse cx='400' cy='96' rx='86' ry='30'/%3E%3C/g%3E%3C!-- 银锁主体 --%3E%3Cg transform='translate(400 470)'%3E%3Cpath d='M-108 -34 C-118 -150 -60 -196 0 -196 C60 -196 118 -150 108 -34 C104 64 62 108 0 108 C-62 108 -104 64 -108 -34 Z' fill='url(%23silver)' stroke='%23c8d2e0' stroke-width='3'/%3E%3Cpath d='M-80 -30 C-88 -128 -46 -168 0 -168 C46 -168 88 -128 80 -30 C78 50 46 84 0 84 C-46 84 -78 50 -80 -30 Z' fill='none' stroke='%237d8a9c' stroke-width='2.5' opacity='0.7'/%3E%3Ccircle cx='0' cy='-46' r='34' fill='none' stroke='%23ffffff' stroke-width='3.5' opacity='0.8'/%3E%3Ccircle cx='0' cy='-46' r='15' fill='url(%23silver2)'/%3E%3Cpath d='M-56 18 L-26 18 L-18 44 L-2 -12 L14 40 L24 18 L56 18' fill='none' stroke='%23ffffff' stroke-width='3.5' opacity='0.62' stroke-linejoin='round'/%3E%3C!-- 流苏 --%3E%3Cg stroke='url(%23silver2)' stroke-width='4' opacity='0.9'%3E%3Cpath d='M-62 96 L-62 176'/%3E%3Cpath d='M-34 104 L-34 196'/%3E%3Cpath d='M0 108 L0 206'/%3E%3Cpath d='M34 104 L34 196'/%3E%3Cpath d='M62 96 L62 176'/%3E%3C/g%3E%3Cg fill='url(%23silver)'%3E%3Ccircle cx='-62' cy='184' r='7'/%3E%3Ccircle cx='-34' cy='204' r='7'/%3E%3Ccircle cx='0' cy='214' r='8'/%3E%3Ccircle cx='34' cy='204' r='7'/%3E%3Ccircle cx='62' cy='184' r='7'/%3E%3C/g%3E%3C/g%3E%3C!-- 浮起小圆环装饰 --%3E%3Cg fill='none' stroke='%238bd4ff' stroke-width='2' opacity='0.55'%3E%3Ccircle cx='150' cy='640' r='34'/%3E%3Ccircle cx='660' cy='590' r='48'/%3E%3Ccircle cx='640' cy='150' r='20'/%3E%3C/g%3E%3Cg fill='%23f0c07a' opacity='0.72'%3E%3Ccircle cx='176' cy='250' r='6'/%3E%3Ccircle cx='628' cy='330' r='5'/%3E%3Ccircle cx='300' cy='770' r='6'/%3E%3C/g%3E%3C/svg%3E" alt="银儿女主玩物社区主视觉银锁挂饰与链环插画">
+        </div>
+        <div class="yve-hero-float">
+          <span class="yve-float-play" aria-hidden="true"></span>
+          <div>
+            <b>《一枚银锁的三十年》</b>
+            <span>口述实录 · 12 分 40 秒</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 关键词解析 -->
+<section class="yve-sec yve-about" id="yve-about">
+  <div class="yve-wrap">
+    <div class="yve-about-grid">
+      <div class="yve-about-art">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 720'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23eef2f9'/%3E%3Cstop offset='1' stop-color='%23cfd9e7'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232b3446'/%3E%3Cstop offset='1' stop-color='%23465266'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23a8b5c7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='600' height='720' fill='url(%23a)'/%3E%3Cpath d='M0 520 Q150 460 300 512 T600 486 L600 720 L0 720 Z' fill='%23dbe3ee'/%3E%3Cpath d='M0 600 Q180 548 340 592 T600 566 L600 720 L0 720 Z' fill='%23c4d0e0'/%3E%3C!-- 工作台 --%3E%3Crect x='70' y='470' width='460' height='20' rx='8' fill='url(%23b)'/%3E%3Crect x='96' y='490' width='14' height='130' fill='%233d4859'/%3E%3Crect x='490' y='490' width='14' height='130' fill='%233d4859'/%3E%3C!-- 锤子 --%3E%3Cg transform='translate(180 340) rotate(18)'%3E%3Crect x='-9' y='-96' width='18' height='140' rx='8' fill='%23844f33'/%3E%3Crect x='-38' y='-124' width='76' height='34' rx='8' fill='url(%23c)'/%3E%3C/g%3E%3C!-- 银片 --%3E%3Cg transform='translate(360 430)'%3E%3Cpath d='M-78 -58 L82 -58 L64 62 L-62 62 Z' fill='url(%23c)' stroke='%238e9bad' stroke-width='2'/%3E%3Cpath d='M-46 -30 L-18 -30 L-8 8 L8 -42 L26 10 L40 -30 L54 -30' fill='none' stroke='%236f7c8f' stroke-width='4' stroke-linejoin='round' opacity='0.8'/%3E%3C/g%3E%3C!-- 錾子 --%3E%3Cg transform='translate(455 352) rotate(-24)'%3E%3Crect x='-7' y='-70' width='14' height='86' rx='6' fill='%235b6a80'/%3E%3Cpath d='M-7 16 L0 40 L7 16 Z' fill='%23dfe6f0'/%3E%3C/g%3E%3Cg fill='%23f0c07a' opacity='0.5'%3E%3Ccircle cx='132' cy='196' r='7'/%3E%3Ccircle cx='488' cy='132' r='5'/%3E%3Ccircle cx='300' cy='96' r='4'/%3E%3C/g%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='2' opacity='0.6'%3E%3Ccircle cx='520' cy='640' r='26'/%3E%3Ccircle cx='92' cy='660' r='18'/%3E%3C/g%3E%3C/svg%3E" alt="银饰工作台上的锤子与錾刻银片">
+      </div>
+      <div class="yve-about-body">
+        <span class="yve-eyebrow">About the Keyword</span>
+        <h2 class="yve-h2">关于「银儿女主玩物社区」的<em>定位与解析</em></h2>
+        <p>
+          「银儿女主玩物社区」这个名字，指向的是一种非常具体的观看方式：银，是材质与光泽；儿女，是人的温度与选择；玩物，则是那些被反复摩挲、被郑重收藏、被当作生活一部分的小物件。作为一家持续运营的视频品牌，我们把这三层含义叠在一起，形成了一套围绕<b>银饰收藏与玩物美学</b>展开的原创影像体系。这里既不追逐转瞬即逝的流量风向，也不把器物当作纯粹的消费符号，而是坚持用<b>专业</b>的镜头语言，去还原一件银器从原料到成型、从光泽到包浆的完整生命线。
+        </p>
+        <p>
+          在内容结构上，社区围绕「器、人、场」三条线索展开。「器」是物件本身——老银锁、银镯、长命锁、银质茶器、旧时的银纽扣与银妆匣；我们邀请金工师傅、修复师与收藏者，用<b>高清</b>特写与慢速镜头讲解每一道錾刻、每一处焊接、每一种做旧工艺的差别。「人」是创作者与同好——有人从祖母的梳妆台开始收藏，有人专攻西北民间银饰，有人把银饰改造当作日常修行；他们的手、他们的工作台、他们的失败与惊喜，构成了社区最真实的质感。「场」则是器物所处的环境：老宅的天井、市集的摊位、工作室午后的侧光、旅行途中的旧货市场，这些场景让银光有了归属，也让观看者理解了玩物并不悬浮。
+        </p>
+        <p>
+          作为一个<b>垂直领域</b>的玩物内容平台，我们尤其重视内容的可信度。每一条工艺类视频都会标注拍摄对象、工艺流派与出镜匠人；每一次藏品分享都会说明来源与判断依据；我们不做夸张的估价，也不把「老」等同于「贵」，而是引导同好去看包浆的层次、纹样的时代特征、焊点的处理方式。这种克制，是银儿女主玩物社区<b>行业领先</b>口碑的来源，也是许多用户把我们称作「用户首选」玩物社区的原因。我们相信，真正的影响力不来自喧哗，而来自长期、稳定、可被检验的<b>精品内容</b>。
+        </p>
+        <p>
+          社区同时承担着品牌与创作者之间的连接功能。品牌方可以在这里发布新品工艺解析、联名企划与线下体验活动；独立创作者可以上传自己的锻造日常、旧物改造与收藏心得；普通同好则可以参与每一季的<b>挑战</b>与<b>投票</b>，把自家抽屉里的那枚银戒拍成三分钟的短片。我们提供脚本灵感、分镜建议、灯光参考与剪辑思路，也提供必要的发布规范，让<b>原创</b>与<b>正版</b>成为社区的默认共识。内容生态的健康，靠的不是审核一次，而是每一个参与者都清楚：被拍下来的东西，值得被认真对待。
+        </p>
+        <p>
+          我们也在持续拓展玩物的边界。银饰之外，铜器、锡器、木作、琉璃、旧表、老相机、手写工具，只要它承载了人的使用痕迹与情感记忆，都可以进入「玩物」的讨论范围。这种<b>多元</b>与<b>包容</b>，让社区既有专业的金工讨论，也有生活化的分享：一枚银顶针如何陪一位裁缝走过四十年，一只旧银勺如何成为某个家庭的早餐仪式。器物不说话，但影像可以让它开口。银儿女主玩物社区希望成为这样一个地方——当你翻出某件旧物，第一反应不是查价格，而是想把它拍下来，讲给懂的人听。
+        </p>
+        <div class="yve-keyword-pills">
+          <span>银饰收藏</span><span>金工工艺</span><span>旧物修复</span><span>玩物美学</span>
+          <span>原创影像</span><span>创作者社区</span><span>匠心记录</span><span>生活器物</span>
+        </div>
+        <div class="yve-about-quote">
+          我们相信，一件玩物真正的价值，不在橱窗的灯光里，而在它被使用、被修补、被讲述的那些年里。银儿女主玩物社区愿意做那个把年份与温度都记录下来的地方。
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 焦点影像 -->
+<section class="yve-sec yve-focus" id="yve-focus">
+  <div class="yve-wrap">
+    <div class="yve-sec-head">
+      <span class="yve-eyebrow">Focus</span>
+      <h2 class="yve-h2">本期焦点影像 · <em>银光下的手工现场</em></h2>
+      <p class="yve-sub">由编辑部与签约创作者共同选出的重点内容，覆盖工艺解析、旧物修复与品牌故事三个方向。</p>
+    </div>
+    <div class="yve-focus-grid">
+      <article class="yve-focus-main">
+        <div class="yve-cover-wrap">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 540'%3E%3Cdefs%3E%3ClinearGradient id='s1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23222b3a'/%3E%3Cstop offset='1' stop-color='%23455266'/%3E%3C/linearGradient%3E%3ClinearGradient id='m1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='0.55' stop-color='%23bcc8d8'/%3E%3Cstop offset='1' stop-color='%238692a6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='960' height='540' fill='url(%23s1)'/%3E%3Ccircle cx='700' cy='160' r='240' fill='%238bd4ff' opacity='0.1'/%3E%3C!-- 錾刻纹样大特写 --%3E%3Cg transform='translate(330 290)'%3E%3Cpath d='M-220 -110 L240 -110 L220 128 L-200 128 Z' fill='url(%23m1)' opacity='0.94'/%3E%3Cg fill='none' stroke='%236e7c90' stroke-width='3.4' opacity='0.78'%3E%3Cpath d='M-170 -50 C-120 -90 -70 -90 -20 -50 C30 -10 80 -10 130 -50'/%3E%3Cpath d='M-170 -18 C-120 -58 -70 -58 -20 -18 C30 22 80 22 130 -18'/%3E%3Cpath d='M-150 24 C-100 60 -40 60 20 24 C70 -6 120 -6 160 24'/%3E%3C/g%3E%3Cg stroke='%23f0c07a' stroke-width='2.6' fill='none' opacity='0.8'%3E%3Ccircle cx='-96' cy='84' r='16'/%3E%3Ccircle cx='0' cy='84' r='16'/%3E%3Ccircle cx='96' cy='84' r='16'/%3E%3C/g%3E%3C/g%3E%3C!-- 手部剪影 --%3E%3Cpath d='M760 540 L720 430 C700 380 716 344 750 336 L790 326 C806 322 818 334 816 350 L806 420 L860 298 C866 282 884 276 896 284 C906 292 908 306 900 322 L856 424 L888 392 C898 382 914 384 922 394 C930 404 930 416 922 428 L872 500 L880 540 Z' fill='%23d6dfeb' opacity='0.86'/%3E%3C!-- 光点 --%3E%3Cg fill='%23f0c07a'%3E%3Ccircle cx='120' cy='96' r='4' opacity='0.8'/%3E%3Ccircle cx='212' cy='420' r='3' opacity='0.6'/%3E%3Ccircle cx='880' cy='120' r='4' opacity='0.7'/%3E%3C/g%3E%3C/svg%3E" alt="錾刻银片纹样与手部特写焦点影像封面">
+          <div class="yve-cover-mask"></div>
+          <div class="yve-cover-badge"><span class="hot">焦点推荐</span><span>工艺解析</span></div>
+          <span class="yve-play-dot" aria-hidden="true"></span>
+          <div class="yve-focus-info">
+            <h3>《錾刻的呼吸》——一枚老银锁的七十二小时修复</h3>
+            <p>从拆解、除锈、补焊到重新錾花，完整记录修复师与一件清代银锁相处的三个昼夜。</p>
+          </div>
+        </div>
+      </article>
+      <div class="yve-focus-side">
+        <article class="yve-mini-card">
+          <div class="yve-mini-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 280'%3E%3Cdefs%3E%3ClinearGradient id='f2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f6efe2'/%3E%3Cstop offset='1' stop-color='%23e0d3bc'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='320' height='280' fill='url(%23f2)'/%3E%3Cg transform='translate(160 148)'%3E%3Cpath d='M-58 0 C-58 -44 -30 -70 0 -70 C30 -70 58 -44 58 0 C58 40 30 64 0 64 C-30 64 -58 40 -58 0 Z' fill='%23c9d3e2'/%3E%3Ccircle cx='0' cy='-22' r='20' fill='none' stroke='%2371808f' stroke-width='4'/%3E%3Cpath d='M-30 34 L-14 34 L-8 48 L0 16 L8 46 L16 34 L30 34' fill='none' stroke='%23808d9c' stroke-width='3'/%3E%3C/g%3E%3Crect x='30' y='222' width='260' height='12' rx='6' fill='%23b9a98a' opacity='0.5'/%3E%3C/svg%3E" alt="旧银锁修复前的氧化细节封面">
+            <i>09:24</i>
+          </div>
+          <div class="yve-mini-body">
+            <h4>修复前的氧化层，到底该不该全部清掉？</h4>
+            <span>旧物修复 · 1.8 万次播放</span>
+          </div>
+        </article>
+        <article class="yve-mini-card">
+          <div class="yve-mini-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 280'%3E%3Cdefs%3E%3ClinearGradient id='f3' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232b3446'/%3E%3Cstop offset='1' stop-color='%23161c26'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='320' height='280' fill='url(%23f3)'/%3E%3Cg fill='none' stroke='%238bd4ff' stroke-width='3' opacity='0.85'%3E%3Ccircle cx='110' cy='110' r='52'/%3E%3Ccircle cx='110' cy='110' r='30'/%3E%3Cpath d='M150 150 L232 232'/%3E%3C/g%3E%3Cg fill='%23f0c07a'%3E%3Ccircle cx='240' cy='90' r='5'/%3E%3Ccircle cx='60' cy='228' r='4'/%3E%3C/g%3E%3C/svg%3E" alt="放大镜下观察银饰焊点的工艺镜头封面">
+            <i>15:08</i>
+          </div>
+          <div class="yve-mini-body">
+            <h4>放大镜下的焊点：判断年代的一把隐形尺</h4>
+            <span>收藏知识 · 2.4 万次播放</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 热门视频流 -->
+<section class="yve-sec yve-flow" id="yve-flow">
+  <div class="yve-wrap">
+    <div class="yve-sec-head">
+      <span class="yve-eyebrow">Trending</span>
+      <h2 class="yve-h2">热门内容 · <em>同好正在看的银光玩物</em></h2>
+      <p class="yve-sub">按题材筛选，每一条都由创作者上传并经编辑团队品质核对，涵盖工艺、收藏、改造与城市探索。</p>
+    </div>
+    <div class="yve-filter-bar" id="yveFilterBar">
+      <button class="active" data-filter="all">全部</button>
+      <button data-filter="craft">工艺</button>
+      <button data-filter="collect">收藏</button>
+      <button data-filter="remake">改造</button>
+      <button data-filter="city">城市</button>
+      <button data-filter="story">故事</button>
+    </div>
+    <div class="yve-video-grid" id="yveVideoGrid">
+
+      <article class="yve-video-card" data-cat="craft">
+        <div class="yve-vc-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%233a465b'/%3E%3Cstop offset='1' stop-color='%231d2431'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v1)'/%3E%3Crect x='70' y='200' width='340' height='14' rx='7' fill='%23465a75'/%3E%3Cg transform='translate(240 108)'%3E%3Cpath d='M-84 -20 C-84 -70 -46 -96 0 -96 C46 -96 84 -70 84 -20 C84 44 46 76 0 76 C-46 76 -84 44 -84 -20 Z' fill='%23cad4e2'/%3E%3Cpath d='M-56 -14 C-56 -52 -30 -70 0 -70 C30 -70 56 -52 56 -14 C56 30 30 52 0 52 C-30 52 -56 30 -56 -14 Z' fill='none' stroke='%2374839a' stroke-width='3'/%3E%3C/g%3E%3Cg stroke='%23f0c07a' stroke-width='3' opacity='0.6' fill='none'%3E%3Cpath d='M60 60 L120 60'/%3E%3Cpath d='M380 210 L430 210'/%3E%3C/g%3E%3C/svg%3E" alt="银镯内壁打磨工艺演示视频封面">
+          <span class="yve-vc-tag">工艺</span><span class="yve-vc-dur">16:42</span>
+        </div>
+        <div class="yve-vc-body">
+          <h3>一只素面银镯的内壁，为什么要打磨七遍</h3>
+          <p>从 240 目到 3000 目，逐级打磨的差别用微距镜头一次看清，附工具清单与手感判断。</p>
+          <div class="yve-vc-meta">
+            <span class="yve-avatar" style="background:linear-gradient(135deg,#5fb9ee,#8bd4ff)">匠</span>
+            <span>金工阿砚</span><span>·</span><span>11月18日</span>
+          </div>
+          <div class="yve-vc-actions">
+            <button class="yve-act-btn" data-yve-like><span>♡</span><b>862</b></button>
+            <button class="yve-act-btn" data-yve-save><span>☆</span><b>收藏</b></button>
+            <button class="yve-act-btn" data-yve-share><span>↗</span><b>分享</b></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="yve-video-card" data-cat="collect">
+        <div class="yve-vc-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f3ece0'/%3E%3Cstop offset='1' stop-color='%23d8c9b0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v2)'/%3E%3Crect x='46' y='186' width='388' height='16' rx='8' fill='%23a89273' opacity='0.5'/%3E%3Cg transform='translate(132 128)'%3E%3Crect x='-44' y='-52' width='88' height='88' rx='12' fill='%23c3cedd'/%3E%3Crect x='-26' y='-34' width='52' height='52' rx='7' fill='%23eef2f8'/%3E%3Ccircle cx='0' cy='-8' r='13' fill='%238d9aad'/%3E%3C/g%3E%3Cg transform='translate(300 142)'%3E%3Ccircle cx='0' cy='0' r='38' fill='none' stroke='%23a9b5c6' stroke-width='10'/%3E%3Ccircle cx='0' cy='0' r='9' fill='%23a9b5c6'/%3E%3C/g%3E%3Cg fill='%23917f62' opacity='0.5'%3E%3Ccircle cx='404' cy='72' r='5'/%3E%3Ccircle cx='86' cy='82' r='4'/%3E%3C/g%3E%3C/svg%3E" alt="旧妆匣中的银质小物件收藏开箱封面">
+          <span class="yve-vc-tag">收藏</span><span class="yve-vc-dur">11:15</span>
+        </div>
+        <div class="yve-vc-body">
+          <h3>开一只民国妆匣：里面藏着六件被遗忘的银器</h3>
+          <p>旧货市场淘来的妆匣，抽屉夹层里还有一层暗格，边开箱边讲每件器物的用途。</p>
+          <div class="yve-vc-meta">
+            <span class="yve-avatar" style="background:linear-gradient(135deg,#f0c07a,#d79a4a)">拾</span>
+            <span>拾光旧物</span><span>·</span><span>11月17日</span>
+          </div>
+          <div class="yve-vc-actions">
+            <button class="yve-act-btn" data-yve-like><span>♡</span><b>1204</b></button>
+            <button class="yve-act-btn" data-yve-save><span>☆</span><b>收藏</b></button>
+            <button class="yve-act-btn" data-yve-share><span>↗</span><b>分享</b></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="yve-video-card" data-cat="remake">
+        <div class="yve-vc-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v3' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23e8eef7'/%3E%3Cstop offset='1' stop-color='%23b7c6da'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v3)'/%3E%3Cg transform='translate(150 138) rotate(-12)'%3E%3Cpath d='M-60 -8 C-60 -48 -30 -70 0 -70 C30 -70 60 -48 60 -8 C60 30 30 52 0 52 C-30 52 -60 30 -60 -8 Z' fill='%238c9aae'/%3E%3C/g%3E%3Cg transform='translate(320 138) rotate(12)'%3E%3Cpath d='M-60 -8 C-60 -48 -30 -70 0 -70 C30 -70 60 -48 60 -8 C60 30 30 52 0 52 C-30 52 -60 30 -60 -8 Z' fill='%23dbe4f0' stroke='%238c9aae' stroke-width='3'/%3E%3Cpath d='M-24 -8 L-10 -8 L-4 8 L6 -20 L16 6 L24 -8' fill='none' stroke='%238bd4ff' stroke-width='3'/%3E%3C/g%3E%3Cpath d='M240 96 L240 176' stroke='%23f0c07a' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E" alt="旧银戒改造为新样式的前后对比封面">
+          <span class="yve-vc-tag">改造</span><span class="yve-vc-dur">08:37</span>
+        </div>
+        <div class="yve-vc-body">
+          <h3>把外婆的旧银戒改成吊坠，我保留了那道划痕</h3>
+          <p>一次不追求「翻新」的改造：保留原戒的磨损与刻字，只做结构与佩戴方式的重新设计。</p>
+          <div class="yve-vc-meta">
+            <span class="yve-avatar" style="background:linear-gradient(135deg,#7f8ea6,#5a6a82)">禾</span>
+            <span>禾木手作</span><span>·</span><span>11月16日</span>
+          </div>
+          <div class="yve-vc-actions">
+            <button class="yve-act-btn" data-yve-like><span>♡</span><b>2371</b></button>
+            <button class="yve-act-btn" data-yve-save><span>☆</span><b>收藏</b></button>
+            <button class="yve-act-btn" data-yve-share><span>↗</span><b>分享</b></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="yve-video-card" data-cat="city">
+        <div class="yve-vc-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v4' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cfe0ef'/%3E%3Cstop offset='1' stop-color='%23eef4fa'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v4)'/%3E%3Cpath d='M0 190 L110 172 L210 186 L330 160 L480 178 L480 270 L0 270 Z' fill='%23a9bccf' opacity='0.6'/%3E%3Crect x='60' y='110' width='54' height='70' fill='%23e8eef6'/%3E%3Crect x='132' y='86' width='44' height='94' fill='%23dde6f1'/%3E%3Crect x='300' y='98' width='56' height='82' fill='%23e4ebf5'/%3E%3Crect x='378' y='126' width='40' height='54' fill='%23d5e0ee'/%3E%3Cpath d='M196 168 L196 130 L236 130 L236 168' fill='none' stroke='%2378879b' stroke-width='3'/%3E%3Ccircle cx='216' cy='148' r='10' fill='%23f0c07a' opacity='0.8'/%3E%3Cpath d='M20 232 L460 232' stroke='%23808f9f' stroke-width='3' opacity='0.5'/%3E%3C/svg%3E" alt="老城银匠街巷外景与门脸招牌封面">
+          <span class="yve-vc-tag">城市</span><span class="yve-vc-dur">13:26</span>
+        </div>
+        <div class="yve-vc-body">
+          <h3>一个人逛完这条银匠巷，还剩三家没拍</h3>
+          <p>城市探索的第三站：老城巷子里仍在使用手工压模的三家小铺，以及与店主的一段闲聊。</p>
+          <div class="yve-vc-meta">
+            <span class="yve-avatar" style="background:linear-gradient(135deg,#8bd4ff,#4f9fce)">漫</span>
+            <span>漫游笔记</span><span>·</span><span>11月15日</span>
+          </div>
+          <div class="yve-vc-actions">
+            <button class="yve-act-btn" data-yve-like><span>♡</span><b>743</b></button>
+            <button class="yve-act-btn" data-yve-save><span>☆</span><b>收藏</b></button>
+            <button class="yve-act-btn" data-yve-share><span>↗</span><b>分享</b></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="yve-video-card" data-cat="story">
+        <div class="yve-vc-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v5' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f6e9e5'/%3E%3Cstop offset='1' stop-color='%23dcc9c4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v5)'/%3E%3Cg transform='translate(240 146)'%3E%3Cpath d='M-70 0 C-70 -46 -38 -74 0 -74 C38 -74 70 -46 70 0 C70 44 38 70 0 70 C-38 70 -70 44 -70 0 Z' fill='%23c3ccd9'/%3E%3Cpath d='M-40 -6 C-30 -30 -10 -42 0 -42 C10 -42 30 -30 40 -6' fill='none' stroke='%23ffffff' stroke-width='3' opacity='0.8'/%3E%3Cpath d='M-30 24 L-14 24 L-6 38 L2 8 L12 34 L20 24 L30 24' fill='none' stroke='%23808d9c' stroke-width='3'/%3E%3C/g%3E%3Cg fill='%23e8b3a8' opacity='0.55'%3E%3Ccircle cx='76' cy='70' r='22'/%3E%3Ccircle cx='410' cy='196' r='30'/%3E%3C/g%3E%3C/svg%3E" alt="口述故事现场银锁与录音设备封面">
+          <span class="yve-vc-tag">故事</span><span class="yve-vc-dur">12:40</span>
+        </div>
+        <div class="yve-vc-body">
+          <h3>她把这枚银锁戴了四十年，直到锁舌再也合不上</h3>
+          <p>一次口述实录：从少女到祖母，一枚长命锁如何陪着一位老人穿过搬家、工作与告别。</p>
+          <div class="yve-vc-meta">
+            <span class="yve-avatar" style="background:linear-gradient(135deg,#d79a8f,#b57a70)">述</span>
+            <span>口述档案室</span><span>·</span><span>11月14日</span>
+          </div>
+          <div class="yve-vc-actions">
+            <button class="yve-act-btn" data-yve-like><span>♡</span><b>3108</b></button>
+            <button class="yve-act-btn" data-yve-save><span>☆</span><b>收藏</b></button>
+            <button class="yve-act-btn" data-yve-share><span>↗</span><b>分享</b></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="yve-video-card" data-cat="craft">
+        <div class="yve-vc-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v6' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23242e3d'/%3E%3Cstop offset='1' stop-color='%23414f66'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v6)'/%3E%3Cg transform='translate(240 140)' fill='none' stroke='%23cad4e2' stroke-width='3' opacity='0.9'%3E%3Cpath d='M-96 -46 L96 -46'/%3E%3Cpath d='M-96 -46 C-60 -12 -20 12 0 12 C20 12 60 -12 96 -46'/%3E%3Cpath d='M-60 24 L-30 54 L30 54 L60 24'/%3E%3C/g%3E%3Cg fill='%23f0c07a'%3E%3Ccircle cx='0' cy='12' r='7'/%3E%3Ccircle cx='0' cy='54' r='5' opacity='0.8'/%3E%3C/g%3E%3Cg stroke='%238bd4ff' stroke-width='2' opacity='0.6'%3E%3Cpath d='M60 210 L420 210'/%3E%3C/g%3E%3C/svg%3E" alt="银丝花丝编织工艺分解镜头封面">
+          <span class="yve-vc-tag">工艺</span><span class="yve-vc-dur">20:06</span>
+        </div>
+        <div class="yve-vc-body">
+          <h3>花丝第一步：把两毫米的银丝搓成麻花</h3>
+          <p>花丝镶嵌入门第一课，从搓丝、掐丝到填丝，慢镜头分解每一个容易失败的动作。</p>
+          <div class="yve-vc-meta">
+            <span class="yve-avatar" style="background:linear-gradient(135deg,#6f8fb0,#3f5d7c)">丝</span>
+            <span>花丝工作间</span><span>·</span><span>11月13日</span>
+          </div>
+          <div class="yve-vc-actions">
+            <button class="yve-act-btn" data-yve-like><span>♡</span><b>1567</b></button>
+            <button class="yve-act-btn" data-yve-save><span>☆</span><b>收藏</b></button>
+            <button class="yve-act-btn" data-yve-share><span>↗</span><b>分享</b></button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- 专题企划 -->
+<section class="yve-sec yve-topics" id="yve-topics">
+  <div class="yve-wrap">
+    <div class="yve-sec-head">
+      <span class="yve-eyebrow">Series</span>
+      <h2 class="yve-h2">专题企划 · <em>用一组影像讲透一件事</em></h2>
+      <p class="yve-sub">每个专题由编辑团队策划、多位创作者共同完成，持续更新中，欢迎在评论区留下你想看的题目。</p>
+    </div>
+    <div class="yve-topic-grid">
+      <article class="yve-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 420'%3E%3Cdefs%3E%3ClinearGradient id='t1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23232c3b'/%3E%3Cstop offset='1' stop-color='%234b5a72'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='420' fill='url(%23t1)'/%3E%3Cg stroke='%23c9d3e2' stroke-width='2.4' fill='none' opacity='0.82'%3E%3Cpath d='M120 300 C210 180 300 170 400 236 C500 302 600 288 690 190'/%3E%3Cpath d='M120 340 C220 236 306 230 400 288 C494 346 596 330 690 240'/%3E%3C/g%3E%3Cg fill='%238bd4ff'%3E%3Ccircle cx='400' cy='236' r='8'/%3E%3Ccircle cx='690' cy='190' r='6'/%3E%3Ccircle cx='120' cy='300' r='6'/%3E%3C/g%3E%3Cg transform='translate(620 96)' stroke='%23f0c07a' stroke-width='2.4' fill='none' opacity='0.7'%3E%3Ccircle cx='0' cy='0' r='40'/%3E%3Ccircle cx='0' cy='0' r='20'/%3E%3C/g%3E%3C/svg%3E" alt="银饰锻造工艺专题企划主视觉">
+        <h3>《錾刻的呼吸》银饰锻造工艺专题</h3>
+        <p>六位金工师傅、十二道工序、一套完整的工具谱系，用影像建立属于银饰工艺的公共档案。</p>
+        <span class="yve-topic-status">更新至第 4 集 · 共 6 集</span>
+      </article>
+      <article class="yve-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 420'%3E%3Cdefs%3E%3ClinearGradient id='t2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23efe6d6'/%3E%3Cstop offset='1' stop-color='%23d3bf9d'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='400' height='420' fill='url(%23t2)'/%3E%3Cg transform='translate(200 200)'%3E%3Crect x='-72' y='-52' width='144' height='104' rx='10' fill='%23f7f2e8' stroke='%23a99a7c' stroke-width='3'/%3E%3Crect x='-52' y='-32' width='46' height='64' rx='5' fill='%23c3cfe0'/%3E%3Crect x='6' y='-32' width='46' height='64' rx='5' fill='%23e4d7bd'/%3E%3C/g%3E%3Cg fill='%23a99a7c' opacity='0.5'%3E%3Ccircle cx='80' cy='80' r='6'/%3E%3Ccircle cx='330' cy='340' r='8'/%3E%3C/g%3E%3C/svg%3E" alt="旧物抽屉计划专题封面插画">
+        <h3>《旧物抽屉计划》</h3>
+        <p>邀请同好打开自家抽屉，拍下那件舍不得扔的小东西，讲清它的来处与现在的用途。</p>
+        <span class="yve-topic-status">长期企划 · 持续征集中</span>
+      </article>
+      <article class="yve-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 420'%3E%3Cdefs%3E%3ClinearGradient id='t3' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232b3446'/%3E%3Cstop offset='1' stop-color='%23151b24'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='400' height='420' fill='url(%23t3)'/%3E%3Cg fill='none' stroke='%238bd4ff' stroke-width='2.6' opacity='0.8'%3E%3Crect x='96' y='120' width='208' height='130' rx='16'/%3E%3Cpath d='M96 190 L304 190'/%3E%3Ccircle cx='200' cy='190' r='26'/%3E%3C/g%3E%3Cg stroke='%23f0c07a' stroke-width='2' opacity='0.6'%3E%3Cpath d='M140 300 L260 300'/%3E%3Cpath d='M168 328 L232 328'/%3E%3C/g%3E%3C/svg%3E" alt="银光玩物挑战赛专题视觉">
+        <h3>「银光玩物挑战」第三季</h3>
+        <p>用三分钟讲一件你与银饰之间的真实经历，设最佳叙事、最佳工艺记录与社区人气三项。</p>
+        <span class="yve-topic-status">报名中 · 截止 12 月 20 日</span>
+      </article>
+      <article class="yve-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 420'%3E%3Cdefs%3E%3ClinearGradient id='t4' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23dfe9f4'/%3E%3Cstop offset='1' stop-color='%23a9bdd2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='400' height='420' fill='url(%23t4)'/%3E%3Cg stroke='%23ffffff' stroke-width='3' fill='none' opacity='0.9'%3E%3Cpath d='M80 300 C140 220 200 210 260 250 C310 284 340 276 360 240'/%3E%3C/g%3E%3Cg fill='%237f94ab'%3E%3Ccircle cx='130' cy='150' r='34'/%3E%3Ccircle cx='268' cy='170' r='22'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E" alt="修复师访谈专题封面">
+        <h3>《修复师的一天》</h3>
+        <p>四位修复师、四种工作节奏，讨论「修旧如旧」在银器与旧物上的实践边界。</p>
+        <span class="yve-topic-status">已完结 · 共 4 集</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 创作者矩阵 -->
+<section class="yve-sec yve-creators" id="yve-creators">
+  <div class="yve-wrap">
+    <div class="yve-sec-head">
+      <span class="yve-eyebrow">Creators</span>
+      <h2 class="yve-h2">创作者矩阵 · <em>把玩物讲明白的人</em></h2>
+      <p class="yve-sub">签约创作者覆盖金工、修复、收藏、影像与文字记录，欢迎了解更多并关注他们的更新。</p>
+    </div>
+    <div class="yve-creator-grid">
+      <article class="yve-creator-card">
+        <div class="yve-creator-avatar" style="background:linear-gradient(135deg,#5fb9ee,#8bd4ff)">砚</div>
+        <h3>金工阿砚</h3>
+        <div class="yve-creator-field">银饰锻造 · 工艺解析</div>
+        <p>从业十二年的金工师，擅长用微距镜头讲解錾刻、焊接与打磨细节，作品以素面银器为主。</p>
+        <div class="yve-creator-nums">
+          <div><b>186</b>作品</div><div><b>9.2万</b>同好</div>
+        </div>
+      </article>
+      <article class="yve-creator-card">
+        <div class="yve-creator-avatar" style="background:linear-gradient(135deg,#f0c07a,#d79a4a)">拾</div>
+        <h3>拾光旧物</h3>
+        <div class="yve-creator-field">旧物收藏 · 开箱记录</div>
+        <p>专注民国至八十年代的日常器物收藏，开箱视频以克制、清晰著称，不做估价只讲来历。</p>
+        <div class="yve-creator-nums">
+          <div><b>243</b>作品</div><div><b>12.6万</b>同好</div>
+        </div>
+      </article>
+      <article class="yve-creator-card">
+        <div class="yve-creator-avatar" style="background:linear-gradient(135deg,#7f8ea6,#5a6a82)">禾</div>
+        <h3>禾木手作</h3>
+        <div class="yve-creator-field">旧物改造 · 情感叙事</div>
+        <p>把家人的旧首饰改成可日常佩戴的物件，坚持保留原有磨损痕迹，认为痕迹也是设计的一部分。</p>
+        <div class="yve-creator-nums">
+          <div><b>97</b>作品</div><div><b>6.8万</b>同好</div>
+        </div>
+      </article>
+      <article class="yve-creator-card">
+        <div class="yve-creator-avatar" style="background:linear-gradient(135deg,#8bd4ff,#4f9fce)">漫</div>
+        <h3>漫游笔记</h3>
+        <div class="yve-creator-field">城市探索 · 在地文化</div>
+        <p>用步行方式记录城市里的手艺人聚集地，擅长把街巷、声音与人物访谈剪成短小的城市切片。</p>
+        <div class="yve-creator-nums">
+          <div><b>134</b>作品</div><div><b>8.1万</b>同好</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 用户评价 -->
+<section class="yve-sec yve-voices" id="yve-voices">
+  <div class="yve-wrap">
+    <div class="yve-sec-head">
+      <span class="yve-eyebrow">Voices</span>
+      <h2 class="yve-h2">同好口碑 · <em>来自社区的真实反馈</em></h2>
+      <p class="yve-sub">以下内容来自社区成员的公开留言，已获授权展示，涵盖观看体验、投稿体验与线下活动反馈。</p>
+    </div>
+    <div class="yve-comment-grid">
+      <article class="yve-comment-card">
+        <div class="yve-comment-top">
+          <span class="yve-avatar" style="background:linear-gradient(135deg,#8bd4ff,#4f9fce)">南</span>
+          <div><b>南枝旧事</b><span>收藏爱好者 · 关注两年</span></div>
+        </div>
+        <p>最早是为了查一枚老银锁上的纹样才点进来的，结果一晚上看了六集工艺解析。最喜欢的是它不夸张，讲焊点就真的只讲焊点，没有多余的煽情。</p>
+        <div class="yve-stars">★★★★★</div>
+      </article>
+      <article class="yve-comment-card">
+        <div class="yve-comment-top">
+          <span class="yve-avatar" style="background:linear-gradient(135deg,#f0c07a,#d79a4a)">周</span>
+          <div><b>周三的金工课</b><span>手工从业者 · 签约创作者</span></div>
+        </div>
+        <p>作为投稿方说一句：这里的编辑会真的看片子，给的修改意见很具体，比如「第二段的手部特写可以再延后两秒」。这种专业度在手作类平台里不多见。</p>
+        <div class="yve-stars">★★★★★</div>
+      </article>
+      <article class="yve-comment-card">
+        <div class="yve-comment-top">
+          <span class="yve-avatar" style="background:linear-gradient(135deg,#b7c6da,#8c9aae)">阿</span>
+          <div><b>阿姨的梳妆台</b><span>生活记录者 · 关注一年</span></div>
+        </div>
+        <p>我拍了我妈的一只银顶针，本来只是随手传，没想到收到几十条评论，有人认出那是上世纪八十年代的老工艺。那一刻觉得，玩物真的会认人。</p>
+        <div class="yve-stars">★★★★☆</div>
+      </article>
+      <article class="yve-comment-card">
+        <div class="yve-comment-top">
+          <span class="yve-avatar" style="background:linear-gradient(135deg,#d79a8f,#b57a70)">林</span>
+          <div><b>林间修表铺</b><span>修复师 · 关注三年</span></div>
+        </div>
+        <p>内容更新节奏很稳，不追热点。修复类视频的技术讲解足够细，作为从业者看着不出戏，偶尔还能学到新的展示方式，这点挺难得。</p>
+        <div class="yve-stars">★★★★★</div>
+      </article>
+      <article class="yve-comment-card">
+        <div class="yve-comment-top">
+          <span class="yve-avatar" style="background:linear-gradient(135deg,#6f8fb0,#3f5d7c)">小</span>
+          <div><b>小满的抽屉</b><span>新加入 · 关注三个月</span></div>
+        </div>
+        <p>界面干净，搜索好用。唯一想提的建议是希望增加按年代筛选的功能，比如只看民国时期的银器。已经在小程序里填写过反馈了。</p>
+        <div class="yve-stars">★★★★☆</div>
+      </article>
+      <article class="yve-comment-card">
+        <div class="yve-comment-top">
+          <span class="yve-avatar" style="background:linear-gradient(135deg,#9bb3c9,#6d8399)">城</span>
+          <div><b>城西手艺铺</b><span>品牌合作方</span></div>
+        </div>
+        <p>我们品牌在这里做过一次新品工艺解析的联合企划，从选题会到成片大概三周，团队对工艺流程的把控很专业，成片在门店循环播放效果也不错。</p>
+        <div class="yve-stars">★★★★★</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 灵感与工具 -->
+<section class="yve-sec yve-tools" id="yve-tools">
+  <div class="yve-wrap">
+    <div class="yve-sec-head">
+      <span class="yve-eyebrow">Inspiration</span>
+      <h2 class="yve-h2">创作灵感 · <em>给下一次上传一点推力</em></h2>
+      <p class="yve-sub">如果你正准备拍摄自己的玩物故事，这里有一份轻量的拍摄节奏工具与几条选题建议。</p>
+    </div>
+    <div class="yve-tools-grid">
+      <div class="yve-tools-panel">
+        <h3>三分钟镜头节奏计时器</h3>
+        <p>为短片拍摄准备的轻量计时工具，选择时长后开始，帮助你把控单条玩物短片的叙述节奏。</p>
+        <div class="yve-timer-btns" id="yveTimerBtns">
+          <button data-sec="60">60 秒</button>
+          <button data-sec="120">120 秒</button>
+          <button class="active" data-sec="180">180 秒</button>
+          <button data-sec="300">300 秒</button>
+        </div>
+        <div class="yve-timer-display" id="yveTimerDisplay">03:00<small>选择时长后点击开始</small></div>
+        <div class="yve-timer-actions">
+          <button class="yve-btn yve-btn-primary" id="yveTimerStart">开始计时</button>
+          <button class="yve-btn yve-btn-ghost" id="yveTimerReset">重置</button>
+        </div>
+      </div>
+      <div class="yve-inspire-list">
+        <article class="yve-inspire-item">
+          <span class="yve-inspire-num">01</span>
+          <div>
+            <h4>从「它现在在哪」开始</h4>
+            <p>不要先介绍年代和工艺，先说这件玩物此刻放在家里的哪个位置、为什么放那里，观众会更容易进入。</p>
+          </div>
+        </article>
+        <article class="yve-inspire-item">
+          <span class="yve-inspire-num">02</span>
+          <div>
+            <h4>给细节留三秒静止</h4>
+            <p>银饰的纹样、磨损与刻字需要静止镜头，三秒不动的特写比快速摇移更能让人看清你真正想表达的东西。</p>
+          </div>
+        </article>
+        <article class="yve-inspire-item">
+          <span class="yve-inspire-num">03</span>
+          <div>
+            <h4>说失败，也说服气</h4>
+            <p>改造类内容里，翻车与补救往往比顺利成片更有说服力，社区也更容易给到具体的建议与讨论。</p>
+          </div>
+        </article>
+        <article class="yve-inspire-item">
+          <span class="yve-inspire-num">04</span>
+          <div>
+            <h4>声音也是玩物的一部分</h4>
+            <p>锤击、锉磨、锁扣合拢的声音，都是银饰影像里被低估的素材，建议单独收录一段环境声备用。</p>
+          </div>
+        </article>
+        <article class="yve-inspire-item">
+          <span class="yve-inspire-num">05</span>
+          <div>
+            <h4>标题写具体，别写形容词</h4>
+            <p>「一枚被磨平的银戒」比「岁月静好的老银饰」更能让人点开，也更容易被同好准确检索到。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 企业动态 & FAQ -->
+<section class="yve-sec yve-news" id="yve-news">
+  <div class="yve-wrap">
+    <div class="yve-sec-head">
+      <span class="yve-eyebrow">Updates</span>
+      <h2 class="yve-h2">企业动态与常见问题 · <em>平台运营公开可见</em></h2>
+      <p class="yve-sub">我们保持运营信息的透明，也整理了社区成员最常提出的问题，欢迎补充。</p>
+    </div>
+    <div class="yve-news-grid">
+      <div class="yve-timeline">
+        <div class="yve-tl-item">
+          <div class="yve-tl-date">2026 年 11 月 18 日</div>
+          <h4>《錾刻的呼吸》工艺专题第 4 集上线</h4>
+          <p>本集聚焦银饰焊接工艺，邀请两位从业十五年的金工师出镜，附完整工具清单与操作要点。</p>
+        </div>
+        <div class="yve-tl-item">
+          <div class="yve-tl-date">2026 年 11 月 17 日</div>
+          <h4>「银光玩物挑战」第三季报名开启</h4>
+          <p>面向全体社区成员征稿，主题为「我与一件银饰的真实经历」，投稿入口已同步开放至 12 月 20 日。</p>
+        </div>
+        <div class="yve-tl-item">
+          <div class="yve-tl-date">2026 年 11 月 12 日</div>
+          <h4>社区内容规范 2.0 版发布</h4>
+          <p>进一步明确藏品分享的信息标注要求，鼓励创作者说明来源与判断依据，共同维护专业口碑。</p>
+        </div>
+        <div class="yve-tl-item">
+          <div class="yve-tl-date">2026 年 11 月 08 日</div>
+          <h4>与三家手工艺品牌达成内容合作</h4>
+          <p>合作方向包括工艺纪录、线下体验活动与匠心访谈，相关内容将在官方账号陆续发布。</p>
+        </div>
+        <div class="yve-tl-item">
+          <div class="yve-tl-date">2026 年 10 月 30 日</div>
+          <h4>创作者扶持计划开放第二批申请</h4>
+          <p>提供拍摄设备借用、后期支持与选题辅导，重点面向修复、金工与城市探索方向的新创作者。</p>
+        </div>
+      </div>
+      <div class="yve-faq-list">
+        <details open>
+          <summary>如何成为社区签约创作者？</summary>
+          <p>在投稿页面提交三支以上原创短片及创作说明，编辑团队会在七个工作日内回复。我们更看重内容的具体性与真实感，而非设备规格。</p>
+        </details>
+        <details>
+          <summary>上传的玩物短片有什么规范？</summary>
+          <p>请确保为原创拍摄或已获授权，涉及藏品分享时建议标注来源与判断依据；不使用未经许可的背景音乐与影视素材。详细规范可在投稿入口查看。</p>
+        </details>
+        <details>
+          <summary>社区会协助品牌做联合企划吗？</summary>
+          <p>会。我们提供工艺解析、品牌故事与线下活动记录三类合作形式，具体排期与内容方向可通联系模块中的商务邮箱沟通。</p>
+        </details>
+        <details>
+          <summary>为什么不做藏品估价内容？</summary>
+          <p>估价容易偏离玩物本身的讨论价值。我们更希望同好关注工艺、年代特征与个人记忆，把判断留给更专业、更审慎的场合。</p>
+        </details>
+        <details>
+          <summary>可以在手机上观看和投稿吗？</summary>
+          <p>页面已完成移动端适配，浏览、收藏与分享均可直接操作；投稿表单同样支持移动端填写，建议搭配稳定的网络环境上传素材。</p>
+        </details>
+        <details>
+          <summary>如何处理内容被搬运的情况？</summary>
+          <p>请通过举报入口提交原片链接与发布时间证明，核实后我们会协助下架并保留处理记录，必要时配合版权方进一步沟通。</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 投稿联系 -->
+<section class="yve-sec yve-join" id="yve-join">
+  <div class="yve-wrap">
+    <div class="yve-join-inner">
+      <span class="yve-eyebrow" style="color:var(--yve-glow);justify-content:center;">Join Us</span>
+      <h2 class="yve-h2">把你的玩物故事，放进社区的光里</h2>
+      <p class="yve-sub">无论你是金工师、修复师、收藏者，还是刚刚开始记录第一件旧物的普通同好，我们都欢迎你的上传。</p>
+      <div class="yve-join-actions">
+        <button class="yve-btn yve-btn-primary" data-yve-open="submit">我要投稿</button>
+        <button class="yve-btn yve-btn-light" data-yve-open="contact">联系编辑部</button>
+        <button class="yve-btn yve-btn-ghost" data-yve-open="feedback">问题反馈</button>
+      </div>
+      <div class="yve-contact-strip">
+        <div class="yve-contact-item">
+          <b>商务合作</b>
+          <span>brand@silvermuse.example</span>
+        </div>
+        <div class="yve-contact-item">
+          <b>投稿咨询</b>
+          <span>submit@silvermuse.example</span>
+        </div>
+        <div class="yve-contact-item">
+          <b>社区运营时间</b>
+          <span>周一至周五 10:00 - 18:30</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="yve-footer">
+  <div class="yve-wrap">
+    <div class="yve-footer-grid">
+      <div class="yve-footer-brand">
+        <a href="#yve-hero" class="yve-logo" aria-label="银儿女主玩物社区">
+          <span class="yve-logo-mark"></span>
+          <span class="yve-logo-text">
+            <b style="color:#dfe6ef;">银儿女主玩物社区</b>
+            <span style="color:#697787;">Silver Muse Playhouse</span>
+          </span>
+        </a>
+        <p>银儿女主玩物社区官方网站，专注银饰收藏与玩物美学的视频品牌，持续运营原创影像内容，与创作者、企业共同构建值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h4>浏览</h4>
+        <ul>
+          <li><a href="#yve-about">关键词解析</a></li>
+          <li><a href="#yve-focus">焦点影像</a></li>
+          <li><a href="#yve-flow">热门内容</a></li>
+          <li><a href="#yve-topics">专题企划</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>社区</h4>
+        <ul>
+          <li><a href="#yve-creators">创作者矩阵</a></li>
+          <li><a href="#yve-voices">同好口碑</a></li>
+          <li><a href="#yve-tools">创作灵感</a></li>
+          <li><a href="#yve-news">企业动态</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与</h4>
+        <ul>
+          <li><a href="#yve-join">投稿入口</a></li>
+          <li><a href="#yve-join">商务合作</a></li>
+          <li><a href="#yve-news">常见问题</a></li>
+          <li><a href="#yve-hero">返回首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="yve-footer-bottom">
+      <span>© 2026 银儿女主玩物社区 官方网站 · 版权所有 · 持续运营中</span>
+      <span>内容为原创影像与社区投稿 · 品质内容 · 匠心记录</span>
+    </div>
+  </div>
+</footer>
+
+<button class="yve-top-btn" id="yveTopBtn" aria-label="回到顶部">↑</button>
+<div class="yve-toast" id="yveToast" role="status"></div>
+
+<!-- 投稿弹窗 -->
+<div class="yve-modal" id="yveModalSubmit">
+  <div class="yve-modal-box">
+    <button class="yve-modal-close" data-yve-close aria-label="关闭">×</button>
+    <h3>提交你的玩物短片</h3>
+    <p>填写基本信息，编辑团队会在七个工作日内与你联系。请确保内容为原创或已获授权。</p>
+    <label for="yveSubmitName">创作者昵称</label>
+    <input type="text" id="yveSubmitName" placeholder="例如：禾木手作">
+    <label for="yveSubmitTitle">作品标题</label>
+    <input type="text" id="yveSubmitTitle" placeholder="例如：把外婆的旧银戒改成吊坠">
+    <label for="yveSubmitType">内容方向</label>
+    <select id="yveSubmitType">
+      <option>工艺解析</option>
+      <option>旧物收藏</option>
+      <option>改造记录</option>
+      <option>城市探索</option>
+      <option>人物故事</option>
+    </select>
+    <label for="yveSubmitDesc">一句话简介</label>
+    <textarea id="yveSubmitDesc" placeholder="讲讲这件玩物对你意味着什么"></textarea>
+    <div class="yve-modal-actions">
+      <button class="yve-btn yve-btn-light" data-yve-close>取消</button>
+      <button class="yve-btn yve-btn-primary" id="yveSubmitConfirm">提交投稿</button>
+    </div>
+  </div>
+</div>
+
+<!-- 联系弹窗 -->
+<div class="yve-modal" id="yveModalContact">
+  <div class="yve-modal-box">
+    <button class="yve-modal-close" data-yve-close aria-label="关闭">×</button>
+    <h3>联系编辑部</h3>
+    <p>商务合作、内容建议与活动咨询，都可以通过以下方式找到我们。</p>
+    <label>商务合作邮箱</label>
+    <input type="text" value="brand@silvermuse.example" readonly>
+    <label>投稿咨询邮箱</label>
+    <input type="text" value="submit@silvermuse.example" readonly>
+    <label>社区运营时间</label>
+    <input type="text" value="周一至周五 10:00 - 18:30" readonly>
+    <div class="yve-modal-actions">
+      <button class="yve-btn yve-btn-primary" data-yve-copy="brand@silvermuse.example">复制合作邮箱</button>
+    </div>
+  </div>
+</div>
+
+<!-- 反馈弹窗 -->
+<div class="yve-modal" id="yveModalFeedback">
+  <div class="yve-modal-box">
+    <button class="yve-modal-close" data-yve-close aria-label="关闭">×</button>
+    <h3>问题反馈</h3>
+    <p>遇到内容错误、播放异常或版权问题，请简要描述，我们会尽快处理。</p>
+    <label for="yveFbType">反馈类型</label>
+    <select id="yveFbType">
+      <option>内容错误</option>
+      <option>播放异常</option>
+      <option>版权投诉</option>
+      <option>功能建议</option>
+    </select>
+    <label for="yveFbText">具体描述</label>
+    <textarea id="yveFbText" placeholder="请描述你遇到的问题"></textarea>
+    <div class="yve-modal-actions">
+      <button class="yve-btn yve-btn-light" data-yve-close>取消</button>
+      <button class="yve-btn yve-btn-primary" id="yveFbConfirm">提交反馈</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('yveToast');
+  var toastTimer = null;
+  function yveToast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('show'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('yveBurger');
+  var nav = document.getElementById('yveNav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    burger.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('open');
+      burger.classList.remove('open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById('yveSearchInput');
+  var searchBtn = document.getElementById('yveSearchBtn');
+  var searchTip = document.getElementById('yveSearchTip');
+  var yvePool = ['錾刻工艺','银锁修复','旧妆匣开箱','花丝镶嵌','银匠巷','玩物挑战','口述档案','城市探索','银饰收藏','旧物改造'];
+  function doSearch(){
+    var kw = (searchInput.value || '').trim();
+    if(!kw){
+      searchTip.innerHTML = '试试搜索：<b>錾刻</b>、<b>银锁</b>、<b>旧物改造</b>';
+      searchTip.classList.add('show');
+      return;
+    }
+    var hits = yvePool.filter(function(x){ return x.indexOf(kw) > -1; });
+    if(hits.length){
+      searchTip.innerHTML = '找到 ' + hits.length + ' 个相关方向：<b>' + hits.join('、') + '</b>';
+    }else{
+      searchTip.innerHTML = '暂无与「<b>' + kw.replace(/</g,'') + '</b>」完全匹配的内容，已为你推荐：<b>錾刻工艺、旧物修复</b>';
+    }
+    searchTip.classList.add('show');
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ doSearch(); } });
+  searchInput.addEventListener('input', function(){ if(!searchInput.value){ searchTip.classList.remove('show'); } });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.yve-search')){ searchTip.classList.remove('show'); }
+  });
+
+  /* 点赞 / 收藏 */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-yve-like]');
+    if(likeBtn){
+      var num = likeBtn.querySelector('b');
+      var val = parseInt(num.textContent.replace(/[^\d]/g,''),10) || 0;
+      var liked = likeBtn.classList.toggle('liked');
+      num.textContent = liked ? (val + 1) : Math.max(0, val - 1);
+      likeBtn.querySelector('span').textContent = liked ? '♥' : '♡';
+      yveToast(liked ? '已点赞，感谢你的喜欢' : '已取消点赞');
+      return;
+    }
+    var saveBtn = e.target.closest('[data-yve-save]');
+    if(saveBtn){
+      var saved = saveBtn.classList.toggle('saved');
+      saveBtn.querySelector('span').textContent = saved ? '★' : '☆';
+      saveBtn.querySelector('b').textContent = saved ? '已收藏' : '收藏';
+      yveToast(saved ? '已加入收藏夹' : '已取消收藏');
+      return;
+    }
+    var shareBtn = e.target.closest('[data-yve-share]');
+    if(shareBtn){
+      var title = shareBtn.closest('.yve-video-card').querySelector('h3').textContent;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(title).then(function(){
+          yveToast('内容标题已复制，可分享给同好');
+        }).catch(function(){
+          yveToast('分享：' + title);
+        });
+      }else{
+        yveToast('分享：' + title);
+      }
+      return;
+    }
+  });
+
+  /* 标签筛选 */
+  var filterBar = document.getElementById('yveFilterBar');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#yveVideoGrid .yve-video-card'));
+  filterBar.addEventListener('click', function(e){
+    var btn = e.target.closest('button');
+    if(!btn) return;
+    filterBar.querySelectorAll('button').forEach(function(b){ b.classList.remove('active'); });
+    btn.classList.add('active');
+    var cat = btn.getAttribute('data-filter');
+    var shown = 0;
+    cards.forEach(function(card){
+      var ok = (cat === 'all') || (card.getAttribute('data-cat') === cat);
+      card.style.display = ok ? '' : 'none';
+      if(ok) shown++;
+    });
+    yveToast('已筛选：' + btn.textContent + '，共 ' + shown + ' 条内容');
+  });
+
+  /* 弹窗 */
+  var modals = {
+    submit: document.getElementById('yveModalSubmit'),
+    contact: document.getElementById('yveModalContact'),
+    feedback: document.getElementById('yveModalFeedback')
+  };
+  function openModal(key){
+    var m = modals[key];
+    if(!m) return;
+    m.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeAllModals(){
+    Object.keys(modals).forEach(function(k){ modals[k].classList.remove('show'); });
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('click', function(e){
+    var opener = e.target.closest('[data-yve-open]');
+    if(opener){
+      openModal(opener.getAttribute('data-yve-open'));
+      return;
+    }
+    if(e.target.closest('[data-yve-close]')){
+      closeAllModals();
+      return;
+    }
+    if(e.target.classList.contains('yve-modal')){
+      closeAllModals();
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeAllModals(); }
+  });
+
+  var submitConfirm = document.getElementById('yveSubmitConfirm');
+  submitConfirm.addEventListener('click', function(){
+    var name = document.getElementById('yveSubmitName').value.trim();
+    var title = document.getElementById('yveSubmitTitle').value.trim();
+    if(!name || !title){
+      yveToast('请先填写创作者昵称与作品标题');
+      return;
+    }
+    closeAllModals();
+    yveToast('投稿已提交，编辑团队将在七个工作日内回复');
+  });
+
+  var fbConfirm = document.getElementById('yveFbConfirm');
+  fbConfirm.addEventListener('click', function(){
+    var text = document.getElementById('yveFbText').value.trim();
+    if(!text){
+      yveToast('请补充具体描述后再提交');
+      return;
+    }
+    closeAllModals();
+    yveToast('反馈已收到，我们会尽快核实处理');
+  });
+
+  document.addEventListener('click', function(e){
+    var copyBtn = e.target.closest('[data-yve-copy]');
+    if(!copyBtn) return;
+    var txt = copyBtn.getAttribute('data-yve-copy');
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){
+        yveToast('邮箱已复制：' + txt);
+      }).catch(function(){
+        yveToast('邮箱：' + txt);
+      });
+    }else{
+      yveToast('邮箱：' + txt);
+    }
+  });
+
+  /* 数字滚动 */
+  var counted = false;
+  function runCount(){
+    if(counted) return;
+    counted = true;
+    document.querySelectorAll('.yve-count').forEach(function(el){
+      var to = parseInt(el.getAttribute('data-to'),10) || 0;
+      var cur = 0;
+      var step = Math.max(1, Math.round(to / 46));
+      var timer = setInterval(function(){
+        cur += step;
+        if(cur >= to){ cur = to; clearInterval(timer); }
+        el.textContent = cur;
+      }, 26);
+    });
+  }
+  if('IntersectionObserver' in window){
+    var heroStats = document.querySelector('.yve-hero-stats');
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ runCount(); io.disconnect(); } });
+    }, {threshold:0.4});
+    if(heroStats) io.observe(heroStats);
+  }else{
+    runCount();
+  }
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('yveTopBtn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ topBtn.classList.add('show'); }
+    else{ topBtn.classList.remove('show'); }
+  });
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* 计时器 */
+  var timerDisplay = document.getElementById('yveTimerDisplay');
+  var timerBtns = document.getElementById('yveTimerBtns');
+  var timerStart = document.getElementById('yveTimerStart');
+  var timerReset = document.getElementById('yveTimerReset');
+  var totalSec = 180, remain = 180, ticking = null, running = false;
+
+  function fmt(s){
+    var m = Math.floor(s / 60);
+    var sec = s % 60;
+    return (m < 10 ? '0' + m : m) + ':' + (sec < 10 ? '0' + sec : sec);
+  }
+  function renderTimer(hint){
+    timerDisplay.innerHTML = fmt(remain) + '<small>' + (hint || (running ? '计时进行中，请专注拍摄' : '选择时长后点击开始')) + '</small>';
+  }
+  timerBtns.addEventListener('click', function(e){
+    var btn = e.target.closest('button');
+    if(!btn) return;
+    timerBtns.querySelectorAll('button').forEach(function(b){ b.classList.remove('active'); });
+    btn.classList.add('active');
+    totalSec = parseInt(btn.getAttribute('data-sec'),10);
+    remain = totalSec;
+    running = false;
+    clearInterval(ticking);
+    timerStart.textContent = '开始计时';
+    renderTimer();
+  });
+  timerStart.addEventListener('click', function(){
+    if(running){
+      clearInterval(ticking);
+      running = false;
+      timerStart.textContent = '继续计时';
+      renderTimer('已暂停');
+      return;
+    }
+    if(remain <= 0){ remain = totalSec; }
+    running = true;
+    timerStart.textContent = '暂停';
+    renderTimer();
+    ticking = setInterval(function(){
+      remain--;
+      if(remain <= 0){
+        remain = 0;
+        clearInterval(ticking);
+        running = false;
+        timerStart.textContent = '重新开始';
+        renderTimer('时间到，可开始整理素材');
+        yveToast('计时结束，休息一下再回看素材');
+        return;
+      }
+      renderTimer();
+    }, 1000);
+  });
+  timerReset.addEventListener('click', function(){
+    clearInterval(ticking);
+    running = false;
+    remain = totalSec;
+    timerStart.textContent = '开始计时';
+    renderTimer();
+  });
+  renderTimer();
+
+  /* 平滑锚点（预留吸顶高度） */
+  document.querySelectorAll('a[href^="#yve-"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = this.getAttribute('href');
+      var target = document.querySelector(id);
+      if(!target) return;
+      e.preventDefault();
+      var offset = 118;
+      var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({top: top, behavior:'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+                                                                                 </html>
